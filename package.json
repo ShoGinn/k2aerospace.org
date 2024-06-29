@@ -1,0 +1,84 @@
+{
+  "name": "k2aerospace_website",
+  "version": "0.0.1",
+  "description": "K2 Aersopace website",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >= 21.0.0"
+  },
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "clean": "rimraf dist/ .astro/",
+    "dev": "astro dev",
+    "format": "prettier -w .",
+    "lint": "eslint .",
+    "prepare": "is-ci || husky",
+    "preview": "astro preview",
+    "start": "astro dev",
+    "validate:html": "pnpm build && html-validate dist/"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.7.0",
+    "@astrojs/mdx": "3.1.2",
+    "@astrojs/partytown": "2.1.1",
+    "@astrojs/sitemap": "3.1.6",
+    "@astrojs/tailwind": "5.1.0",
+    "@astrolib/analytics": "0.5.0",
+    "@astrolib/seo": "1.0.0-beta.5",
+    "@fontsource-variable/inter": "5.0.18",
+    "@iconify-json/flat-color-icons": "1.1.10",
+    "@iconify-json/mdi": "1.1.67",
+    "@iconify-json/tabler": "1.1.115",
+    "astro-compress": "2.2.28",
+    "@tailwindcss/typography": "0.5.13",
+    "astro": "4.11.3",
+    "astro-embed": "0.7.2",
+    "astro-icon": "1.1.0",
+    "limax": "4.1.0",
+    "lodash.merge": "4.6.2",
+    "rehype-plugin-image-native-lazy-loading": "1.2.0",
+    "tailwind-merge": "2.3.0",
+    "tailwindcss": "3.4.4",
+    "unpic": "3.18.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@cspell/eslint-plugin": "8.9.1",
+    "@eslint/js": "9.6.0",
+    "@types/eslint__js": "8.42.3",
+    "@types/js-yaml": "4.0.9",
+    "@types/lodash.merge": "4.6.9",
+    "@typescript-eslint/eslint-plugin": "7.14.1",
+    "@typescript-eslint/parser": "7.14.1",
+    "astro-eslint-parser": "1.0.2",
+    "eslint": "8.57.0",
+    "eslint-plugin-astro": "1.2.2",
+    "eslint-plugin-jsx-a11y": "6.9.0",
+    "globals": "15.6.0",
+    "html-validate": "8.20.1",
+    "husky": "9.0.11",
+    "is-ci": "3.0.1",
+    "js-yaml": "4.1.0",
+    "lint-staged": "15.2.7",
+    "prettier": "3.3.2",
+    "prettier-plugin-astro": "0.14.0",
+    "rimraf": "5.0.7",
+    "typescript": "5.5.2",
+    "typescript-eslint": "7.14.1"
+  },
+  "lint-staged": {
+    "*.{js,ts,astro,vue,jsx,tsx,mjs,cjs}": [
+      "eslint",
+      "prettier --write"
+    ],
+    "*.{html,css,md,mdx,json}": "npx prettier --write"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

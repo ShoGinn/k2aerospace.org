@@ -1,0 +1,22 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+
+const metadata = {
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata} headerTransparency={true}>
+  <HeroText
+    subtitle="We are a team of experts in the space industry."
+    content="Trusted space industry consulting. Subject matter expertise. Mission planning. Risk assessment."
+  >
+    <Fragment slot="title">
+      <span class="text-accent dark:text-white highlight">Our Mission: </span> Solve the most challenging space problems.
+    </Fragment>
+  </HeroText>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Layout>

@@ -1,0 +1,20 @@
+---
+import { SITE } from 'astrowind:config';
+import { Image } from 'astro:assets';
+import logo from '~/assets/images/k2-logo.svg';
+---
+
+<style>
+  .logo-image {
+    width: 6em;
+    float: left;
+    top: 0em;
+    margin-right: 0.2em;
+    position: relative;
+  }
+</style>
+<span
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+>
+  <Image src={logo} class="logo-image" alt={`${SITE.name} logo`} loading="eager" />
+</span>

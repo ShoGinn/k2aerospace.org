@@ -1,0 +1,42 @@
+---
+import { Icon } from 'astro-icon/components';
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+const {
+  title = await Astro.slots.render('title'),
+  type = 'info',
+  content = await Astro.slots.render('content'),
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-6xl mx-auto ${classes?.container ?? ''}`} bg={bg}>
+  <slot />
+  <div
+    class={`px-4 sm:px-6 py-4 text-md font-medium border-2 rounded-lg grid grid-cols-6 ${type === 'info' ? 'bg-blue-50 dark:bg-slate-800 border-blue-200' : 'bg-red-50 dark:bg-red-900 border-red-200'} not-prose`}
+  >
+    <div class="col-span-1 flex justify-left items-center">
+      <Icon name={type === 'info' ? 'tabler:info-square' : 'tabler:alert-triangle'} class="w-8 h-8" />
+    </div>
+    <div class="col-span-5 text-left text-base tracking-wide uppercase">
+      {title && <span class="font-bold">{title}:</span>}
+      {content}
+    </div>
+    <slot />
+  </div>
+</WidgetWrapper>
+<!-- <slot />
+<div
+  class={`max-w-6xl mx-auto px-4 sm:px-6 py-4 text-md font-medium border-2 ${type === 'info' ? 'bg-blue-50 dark:bg-slate-800 border-blue-200' : 'bg-red-50 dark:bg-slate-800 border-red-200'} rounded-lg grid grid-cols-6`}
+>
+  <div class="col-span-1 flex justify-left items-center">
+    <Icon name={type === 'info' ? 'tabler:info-square' : 'tabler:alert-triangle'} class="w-8 h-8" />
+  </div>
+  <div class="col-span-5 text-left">
+    {title && <span class="font-bold">{title}:</span>}
+    {content}
+  </div>
+  <slot />
+</div> -->

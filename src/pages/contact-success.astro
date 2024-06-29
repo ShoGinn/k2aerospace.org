@@ -1,0 +1,24 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import { getHomePermalink } from '~/utils/permalinks';
+
+const metadata = {
+  title: 'Thank you for contacting us',
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    title={'Thank you for contacting us'}
+    subtitle={'We will get back to you as soon as possible.'}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Go back to home',
+        icon: 'tabler:chevron-right',
+        href: getHomePermalink(),
+      },
+    ]}
+  />
+</Layout>

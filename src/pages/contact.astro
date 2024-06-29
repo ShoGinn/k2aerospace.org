@@ -1,0 +1,56 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features from '~/components/widgets/Features.astro';
+const metadata = {
+  title: 'Contact',
+  description: 'Contact K2 Aerospace to learn more about our services!.',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Contact" title="Reach Out!" />
+
+  <ContactUs
+    name="Contact Form"
+    target="/contact-success"
+    id="form"
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Message',
+    }}
+    description="We're here to help. If you have any questions or need more information, please fill out the form and we'll get back to you as soon as possible."
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features
+    title="Other Ways To Get In Touch"
+    items={[
+      {
+        title: 'Find us on LinkedIn',
+        description: `Connect with us on LinkedIn to stay up-to-date on the latest news and updates.`,
+        callToAction: {
+          target: '_blank',
+          text: 'Send a message',
+          icon: 'tabler:brand-linkedin',
+          href: 'https://www.linkedin.com/company/k2-aerospace/',
+        },
+      },
+    ]}
+  />
+</Layout>
