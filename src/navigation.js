@@ -15,7 +15,7 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://linkedin.com/k2aerospace' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/k2-aerospace/' },
     { ariaLabel: 'Email', icon: 'tabler:mail', href: getPermalink('/contact') },
   ],
   footNote: copyrightElement,
