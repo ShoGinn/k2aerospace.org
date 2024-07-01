@@ -1,22 +1,23 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 
 const metadata = {
   ignoreTitleTemplate: true,
 };
 ---
 
-<Layout metadata={metadata} headerTransparency={true}>
-  <HeroText
-    subtitle="We are a team of experts in the space industry."
+<Layout metadata={metadata}>
+  <Hero2
+    tagline="We are a team of experts in the space industry."
     content="Trusted space industry consulting. Subject matter expertise. Mission planning. Risk assessment."
+    image={{
+      src: 'https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80',
+      alt: 'Click-through Landing Page Hero Image',
+    }}
   >
     <Fragment slot="title">
       <span class="text-accent dark:text-white highlight">Our Mission: </span> Solve the most challenging space problems.
     </Fragment>
-  </HeroText>
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
+  </Hero2>
 </Layout>
