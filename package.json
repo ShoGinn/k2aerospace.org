@@ -46,18 +46,18 @@
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@cspell/eslint-plugin": "8.9.1",
+    "@cspell/eslint-plugin": "8.10.0",
     "@eslint/js": "9.6.0",
     "@types/eslint__js": "8.42.3",
     "@types/js-yaml": "4.0.9",
     "@types/lodash.merge": "4.6.9",
-    "@typescript-eslint/eslint-plugin": "7.14.1",
-    "@typescript-eslint/parser": "7.14.1",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
     "astro-eslint-parser": "1.0.2",
     "eslint": "8.57.0",
     "eslint-plugin-astro": "1.2.2",
     "eslint-plugin-jsx-a11y": "6.9.0",
-    "globals": "15.6.0",
+    "globals": "15.8.0",
     "html-validate": "8.20.1",
     "husky": "9.0.11",
     "is-ci": "3.0.1",
@@ -66,8 +66,8 @@
     "prettier": "3.3.2",
     "prettier-plugin-astro": "0.14.0",
     "rimraf": "5.0.7",
-    "typescript": "5.5.2",
-    "typescript-eslint": "7.14.1"
+    "typescript": "5.5.3",
+    "typescript-eslint": "7.15.0"
   },
   "lint-staged": {
     "*.{js,ts,astro,vue,jsx,tsx,mjs,cjs}": [
