@@ -18,5 +18,6 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/k2-aerospace/' },
     { ariaLabel: 'Email', icon: 'tabler:mail', href: getPermalink('/contact') },
   ],
+  links: [],
   footNote: copyrightElement,
 };
