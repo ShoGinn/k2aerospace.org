@@ -7,9 +7,9 @@
     background-color: var(--aw-color-bg-page);
     background-image: radial-gradient(
       100% 50% at 50% 0%,
-      rgba(0, 163, 255, 0.13) 0,
-      rgba(0, 163, 255, 0) 50%,
-      rgba(0, 163, 255, 0) 100%
+      rgba(1, 97, 239, 0.13) 0%,
+      rgba(1, 84, 207, 0.1) 50%,
+      rgba(1, 97, 239, 0) 100%
     );
   }
   .bg-dark {
