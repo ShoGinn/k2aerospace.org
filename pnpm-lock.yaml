@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@astrojs/check':
-        specifier: 0.8.0
-        version: 0.8.0(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)
+        specifier: 0.8.1
+        version: 0.8.1(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)
       '@astrojs/mdx':
         specifier: 3.1.2
         version: 3.1.2(astro@4.11.5(@types/node@20.14.9)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3))
@@ -39,8 +39,8 @@ importers:
         specifier: 1.1.67
         version: 1.1.67
       '@iconify-json/tabler':
-        specifier: 1.1.116
-        version: 1.1.116
+        specifier: 1.1.117
+        version: 1.1.117
       '@tailwindcss/typography':
         specifier: 0.5.13
         version: 0.5.13(tailwindcss@3.4.4)
@@ -109,8 +109,8 @@ importers:
         specifier: 8.57.0
         version: 8.57.0
       eslint-plugin-astro:
-        specifier: 1.2.2
-        version: 1.2.2(eslint@8.57.0)(typescript@5.5.3)
+        specifier: 1.2.3
+        version: 1.2.3(eslint@8.57.0)(typescript@5.5.3)
       eslint-plugin-jsx-a11y:
         specifier: 6.9.0
         version: 6.9.0(eslint@8.57.0)
@@ -139,8 +139,8 @@ importers:
         specifier: 0.14.0
         version: 0.14.0
       rimraf:
-        specifier: 6.0.0
-        version: 6.0.0
+        specifier: 6.0.1
+        version: 6.0.1
       typescript:
         specifier: 5.5.3
         version: 5.5.3
@@ -190,8 +190,8 @@ packages:
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
 
-  '@astrojs/check@0.8.0':
-    resolution: {integrity: sha512-2nh0Trn0yzMl3VVoPmDliFsgdApcbyspmbRV9chPuOYCHr7LZsapEGLHsLn5b2OMpydqRO38UpuvnzVPqtabHw==}
+  '@astrojs/check@0.8.1':
+    resolution: {integrity: sha512-QTzCuiBWll3SLSe7OsWtWyZRbwChXwxM4Y0Jb84jdPOdYobzHad9ubU7V23qmK3Y0BNwgzCbEP5C5FPVitb31Q==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -205,8 +205,8 @@ packages:
   '@astrojs/internal-helpers@0.4.1':
     resolution: {integrity: sha512-bMf9jFihO8YP940uD70SI/RDzIhUHJAolWVcO1v5PUivxGKvfLZTLTVVxEYzGYyPsA3ivdLNqMnL5VgmQySa+g==}
 
-  '@astrojs/language-server@2.11.0':
-    resolution: {integrity: sha512-GmhF4A2rDCFzk/U0k1ySa8d/p6binaQZQJwSmHsY4Q8aHi5urjkG9csm0ZevKMPJmIRewE4jgh3pwzMGa4e0eQ==}
+  '@astrojs/language-server@2.11.1':
+    resolution: {integrity: sha512-WSIBBUK9lSeVD4KhPiZk2u3wsXdj7WEYvYPPs8ZsgbSVIOzUJWAKVcITHiXmcXlzZB5ubK44YUN/Hq+f2GeMyQ==}
     hasBin: true
     peerDependencies:
       prettier: ^3.0.0
@@ -844,8 +844,8 @@ packages:
   '@iconify-json/mdi@1.1.67':
     resolution: {integrity: sha512-00nllHES8hyACwIfgySlQgAE6MKgpr2wsKfpifMiZWZ9aXC5l4Jb0lR3lJSWwXgOW6kzAOdzC3T+2VOfBBZ13A==}
 
-  '@iconify-json/tabler@1.1.116':
-    resolution: {integrity: sha512-p+dJ+3L/M2o10REG2lh179Blu5+AA51TFkwuUwY7F+vQsF5Z8DIjyNck3yoBBiCxWqhDhsLzC+p9YO7dWqISmw==}
+  '@iconify-json/tabler@1.1.117':
+    resolution: {integrity: sha512-RiFbco9Qo0X7jlRFlD2sq9kwLZZ5JFOyacGKi9nzdnao9tV/qFFh1930JDXFay/CTs/jr7+RYPsI+wGFg0jfsA==}
 
   '@iconify/tools@3.0.7':
     resolution: {integrity: sha512-DxfhFLMnooS34dHelpGUnnYrxLZHs0czC1CgrBhAbuL8ddVzBb2VEQm8kh9qGh7A34qeXAB5iSHH3A72rAaFrg==}
@@ -2030,8 +2030,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-astro@1.2.2:
-    resolution: {integrity: sha512-3UUWo/gwk/YhurYpFKgLJswV33kR9zhtzXk+u2g3WE5Px07wDtWSR3PoyPadHERA4g/9TCCGjsimU/TZyUKxow==}
+  eslint-plugin-astro@1.2.3:
+    resolution: {integrity: sha512-asHT0VUs68oppVnTHfp/WgLqs0yCx9kG9AC/PKLmp+87imeh3nGHMdFm0qP46vHxTM0NLDEhvmjFdAVAqw+QPQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.57.0'
@@ -3644,8 +3644,8 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
-  rimraf@6.0.0:
-    resolution: {integrity: sha512-u+yqhM92LW+89cxUQK0SRyvXYQmyuKHx0jkx4W7KfwLGLqJnQM5031Uv1trE4gB9XEXBM/s6MxKlfW95IidqaA==}
+  rimraf@6.0.1:
+    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -4380,9 +4380,9 @@ snapshots:
       astro: 4.11.5(@types/node@20.14.9)(lightningcss@1.25.1)(terser@5.31.1)(typescript@5.5.3)
       lite-youtube-embed: 0.3.2
 
-  '@astrojs/check@0.8.0(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)':
+  '@astrojs/check@0.8.1(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)':
     dependencies:
-      '@astrojs/language-server': 2.11.0(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)
+      '@astrojs/language-server': 2.11.1(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)
       chokidar: 3.6.0
       fast-glob: 3.3.2
       kleur: 4.1.5
@@ -4398,7 +4398,7 @@ snapshots:
 
   '@astrojs/internal-helpers@0.4.1': {}
 
-  '@astrojs/language-server@2.11.0(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)':
+  '@astrojs/language-server@2.11.1(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)':
     dependencies:
       '@astrojs/compiler': 2.8.1
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -5117,7 +5117,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/tabler@1.1.116':
+  '@iconify-json/tabler@1.1.117':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -6601,11 +6601,11 @@ snapshots:
       eslint: 8.57.0
       semver: 7.6.2
 
-  eslint-plugin-astro@1.2.2(eslint@8.57.0)(typescript@5.5.3):
+  eslint-plugin-astro@1.2.3(eslint@8.57.0)(typescript@5.5.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@typescript-eslint/types': 7.15.0
+      '@typescript-eslint/types': 7.16.0
       astro-eslint-parser: 1.0.2(typescript@5.5.3)
       eslint: 8.57.0
       eslint-compat-utils: 0.5.1(eslint@8.57.0)
@@ -8643,9 +8643,10 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rimraf@6.0.0:
+  rimraf@6.0.1:
     dependencies:
       glob: 11.0.0
+      package-json-from-dist: 1.0.0
 
   rollup@4.18.0:
     dependencies:
