@@ -20,7 +20,7 @@
     "validate:html": "pnpm build && html-validate dist/"
   },
   "dependencies": {
-    "@astrojs/check": "0.8.1",
+    "@astrojs/check": "0.8.2",
     "@astrojs/mdx": "3.1.2",
     "@astrojs/partytown": "2.1.1",
     "@astrojs/sitemap": "3.1.6",
@@ -33,26 +33,26 @@
     "@iconify-json/tabler": "1.1.117",
     "astro-compress": "2.2.28",
     "@tailwindcss/typography": "0.5.13",
-    "astro": "4.11.5",
+    "astro": "4.11.6",
     "astro-embed": "0.7.2",
     "astro-icon": "1.1.0",
     "limax": "4.1.0",
     "lodash.merge": "4.6.2",
     "rehype-plugin-image-native-lazy-loading": "1.2.0",
     "tailwind-merge": "2.4.0",
-    "tailwindcss": "3.4.4",
+    "tailwindcss": "3.4.6",
     "unpic": "3.18.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@cspell/eslint-plugin": "8.10.4",
+    "@cspell/eslint-plugin": "8.11.0",
     "@eslint/js": "9.7.0",
     "@types/eslint__js": "8.42.3",
     "@types/js-yaml": "4.0.9",
     "@types/lodash.merge": "4.6.9",
-    "@typescript-eslint/eslint-plugin": "7.16.0",
-    "@typescript-eslint/parser": "7.16.0",
+    "@typescript-eslint/eslint-plugin": "7.16.1",
+    "@typescript-eslint/parser": "7.16.1",
     "astro-eslint-parser": "1.0.2",
     "eslint": "8.57.0",
     "eslint-plugin-astro": "1.2.3",
@@ -64,10 +64,10 @@
     "js-yaml": "4.1.0",
     "lint-staged": "15.2.7",
     "prettier": "3.3.3",
-    "prettier-plugin-astro": "0.14.0",
+    "prettier-plugin-astro": "0.14.1",
     "rimraf": "6.0.1",
     "typescript": "5.5.3",
-    "typescript-eslint": "7.16.0"
+    "typescript-eslint": "7.16.1"
   },
   "lint-staged": {
     "*.{js,ts,astro,vue,jsx,tsx,mjs,cjs}": [
