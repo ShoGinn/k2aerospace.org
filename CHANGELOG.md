@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.9](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.8...v0.0.9) (2024-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update astro ([7b2f03b](https://github.com/ShoGinn/k2aerospace.org/commit/7b2f03bf00c17d0af71f9ef8845d4aa359744e0e))
+
 ## [0.0.8](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.7...v0.0.8) (2024-08-02)
 
 ### Bug Fixes
