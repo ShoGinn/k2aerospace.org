@@ -38,7 +38,7 @@ export interface AnalyticsConfig {
   };
 }
 
-export interface UIConfig {}
+export type UIConfig = object;
 
 const DEFAULT_SITE_NAME = 'Website';
 

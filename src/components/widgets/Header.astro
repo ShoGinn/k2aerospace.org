@@ -16,7 +16,7 @@ interface Link {
   icon?: string;
 }
 
-interface ActionLink extends CallToAction {}
+type ActionLink = CallToAction;
 
 interface MenuLink extends Link {
   links?: Array<MenuLink>;

@@ -7,7 +7,7 @@ const load = async function () {
   try {
     images = import.meta.glob('~/assets/images/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG}');
   } catch (e) {
-    // continue regardless of error
+    console.error('Error loading images:', e);
   }
   return images;
 };

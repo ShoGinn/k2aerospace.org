@@ -106,7 +106,10 @@ export default ({ config: _themeConfig = 'src/config.yaml' } = {}) => {
             }
           }
         } catch (err) {
-          /* empty */
+          buildLogger.error(
+            'Error updating `robots.txt` with `sitemap-index.xml`',
+            err instanceof Error ? err.message : err
+          );
         }
       },
     },
