@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.10](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.9...v0.0.10) (2024-08-04)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([50e68a2](https://github.com/ShoGinn/k2aerospace.org/commit/50e68a218941b44184cd42b6cb401631537d17ed))
+
 ## [0.0.9](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.8...v0.0.9) (2024-08-02)
 
 
