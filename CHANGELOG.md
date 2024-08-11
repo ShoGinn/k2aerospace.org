@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.12](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.11...v0.0.12) (2024-08-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tailwind-merge to v2.5.0 ([6ae255f](https://github.com/ShoGinn/k2aerospace.org/commit/6ae255f98010a8e4f59d900f47913ea53fb50ab4))
+
 ## [0.0.11](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.10...v0.0.11) (2024-08-08)
 
 
