@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.16](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.15...v0.0.16) (2024-08-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro-icon to v1.1.1 ([58ca845](https://github.com/ShoGinn/k2aerospace.org/commit/58ca845e7ab994cbc79732eff3bebd75fcd8b9cc))
+
 ## [0.0.15](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.14...v0.0.15) (2024-08-15)
 
 
