@@ -43,7 +43,7 @@
     "unpic": "3.18.0"
   },
   "devDependencies": {
-    "@astrojs/check": "0.9.2",
+    "@astrojs/check": "0.9.3",
     "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
     "@cspell/eslint-plugin": "8.14.1",
