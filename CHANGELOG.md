@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.20](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.19...v0.0.20) (2024-09-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency astro to v4.15.3 ([0680868](https://github.com/ShoGinn/k2aerospace.org/commit/0680868253a428f566a114f89a967303529ed32a))
+
 ## [0.0.19](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.18...v0.0.19) (2024-09-02)
 
 
