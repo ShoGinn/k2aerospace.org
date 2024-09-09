@@ -36,8 +36,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0
       '@iconify-json/tabler':
-        specifier: 1.2.0
-        version: 1.2.0
+        specifier: 1.2.1
+        version: 1.2.1
       '@tailwindcss/typography':
         specifier: 0.5.15
         version: 0.5.15(tailwindcss@3.4.10)
@@ -115,8 +115,8 @@ importers:
         specifier: 15.9.0
         version: 15.9.0
       html-validate:
-        specifier: 8.21.0
-        version: 8.21.0
+        specifier: 8.22.0
+        version: 8.22.0
       husky:
         specifier: 9.1.5
         version: 9.1.5
@@ -835,8 +835,8 @@ packages:
   '@iconify-json/mdi@1.2.0':
     resolution: {integrity: sha512-E9/3l5Syg3wfuarorFodhn4s8YorxhH3U3U20LaNBNiqw1kFNIDWhF6HymuzAD35k7RH0OBasJ+ZUyFtVVV6eg==}
 
-  '@iconify-json/tabler@1.2.0':
-    resolution: {integrity: sha512-ke7ESt/wurkWr/VrMrAguN8jOmf8tD9LOOqhn3OwAx8kg0lYwMkOahV6jTGXh2zU90z1drsD34cKV7RoNe0PuQ==}
+  '@iconify-json/tabler@1.2.1':
+    resolution: {integrity: sha512-Ek2kVGZDuh3nD3+3FHnHRsthnwZScA1YQi8bNrEAZvU9C5gyNcUDRM9MBJ8eYR3C5P/2HkPjboMk+tIIewbc2w==}
 
   '@iconify/tools@4.0.5':
     resolution: {integrity: sha512-l8KoA1lxlN/FFjlMd3vjfD7BtcX/QnFWtlBapILMlJSBgM5zhDYak/ldw/LkKG3258q/0YmXa48sO/QpxX7ptg==}
@@ -1112,11 +1112,11 @@ packages:
   '@shikijs/vscode-textmate@9.2.0':
     resolution: {integrity: sha512-5FinaOp6Vdh/dl4/yaOTh0ZeKch+rYS8DUb38V3GMKYVkdqzxw53lViRKUYkVILRiVQT7dcPC7VvAKOR73zVtQ==}
 
-  '@sidvind/better-ajv-errors@2.1.3':
-    resolution: {integrity: sha512-lWuod/rh7Xz5uXiEGSfm2Sd5PG7K/6yJfoAZVqzsEswjPJhUz15R7Gn/o8RczA041QS15hBd/BCSeu9vwPArkA==}
+  '@sidvind/better-ajv-errors@3.0.1':
+    resolution: {integrity: sha512-++1mEYIeozfnwWI9P1ECvOPoacy+CgDASrmGvXPMCcqgx0YUzB01vZ78uHdQ443V6sTY+e9MzHqmN9DOls02aw==}
     engines: {node: '>= 16.14'}
     peerDependencies:
-      ajv: 4.11.8 - 8
+      ajv: ^6.12.3 || ^7.0.0 || ^8.0.0
 
   '@tailwindcss/typography@0.5.15':
     resolution: {integrity: sha512-AqhlCXl+8grUz8uqExv5OTtgpjuVIwFTSXTrh8y9/pw6q2ek7fJ+Y8ZEVw7EB2DCcuCOtEjf9w3+J3rzts01uA==}
@@ -2292,8 +2292,8 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
 
-  html-validate@8.21.0:
-    resolution: {integrity: sha512-f6uyHdNeul4f/E6TDaUrH8agrVmnG5VbWwmIhbkg+Vrz+To/2xxbc+soBKXqani1QSaA+5I12Qr7dQt/HVFJtw==}
+  html-validate@8.22.0:
+    resolution: {integrity: sha512-kKDnU04zdxQIOSZVD6BKma6gWpCMCCFwYvHWwTorBMVbSYXMW1B5kGgLwOMHzTlC3yiuaO7NvJprXk3w7Jko/Q==}
     engines: {node: '>= 16.14'}
     hasBin: true
     peerDependencies:
@@ -2342,6 +2342,10 @@ packages:
 
   ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
+    engines: {node: '>= 4'}
+
+  ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
   import-fresh@3.3.0:
@@ -4871,7 +4875,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/tabler@1.2.0':
+  '@iconify-json/tabler@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -5132,11 +5136,10 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.2.0': {}
 
-  '@sidvind/better-ajv-errors@2.1.3(ajv@8.17.1)':
+  '@sidvind/better-ajv-errors@3.0.1(ajv@8.17.1)':
     dependencies:
-      '@babel/code-frame': 7.24.7
       ajv: 8.17.1
-      chalk: 4.1.2
+      kleur: 4.1.5
 
   '@tailwindcss/typography@0.5.15(tailwindcss@3.4.10)':
     dependencies:
@@ -6662,15 +6665,14 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.31.3
 
-  html-validate@8.21.0:
+  html-validate@8.22.0:
     dependencies:
-      '@babel/code-frame': 7.24.7
       '@html-validate/stylish': 4.2.0
-      '@sidvind/better-ajv-errors': 2.1.3(ajv@8.17.1)
+      '@sidvind/better-ajv-errors': 3.0.1(ajv@8.17.1)
       ajv: 8.17.1
       deepmerge: 4.3.1
       glob: 10.4.5
-      ignore: 5.3.1
+      ignore: 5.3.2
       kleur: 4.1.5
       minimist: 1.2.8
       prompts: 2.4.2
@@ -6705,6 +6707,8 @@ snapshots:
       safer-buffer: 2.1.2
 
   ignore@5.3.1: {}
+
+  ignore@5.3.2: {}
 
   import-fresh@3.3.0:
     dependencies:
