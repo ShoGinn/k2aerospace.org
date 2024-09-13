@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.23](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.22...v0.0.23) (2024-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([240ba41](https://github.com/ShoGinn/k2aerospace.org/commit/240ba416e3de3f585d5639562c6b5544c2eb681f))
+* **deps:** update dependency @fontsource-variable/inter to v5.1.0 ([f501392](https://github.com/ShoGinn/k2aerospace.org/commit/f50139274f1bd56b7115aa858a406cac50f5b427))
+
 ## [0.0.22](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.21...v0.0.22) (2024-09-09)
 
 
