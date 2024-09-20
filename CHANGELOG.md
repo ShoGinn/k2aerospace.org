@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.25](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.24...v0.0.25) (2024-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([3e26871](https://github.com/ShoGinn/k2aerospace.org/commit/3e268711e1e46324e2afc0efb15b9a086e0fe9dd))
+* **deps:** update all non-major dependencies ([37cfb5d](https://github.com/ShoGinn/k2aerospace.org/commit/37cfb5d43110537c5293453490bdfc7321ae4385))
+* **deps:** update dependency @astrolib/seo to v1.0.0-beta.6 ([a8730a8](https://github.com/ShoGinn/k2aerospace.org/commit/a8730a871ad55aef27e8e9b8739434163786286d))
+* **deps:** update dependency @iconify-json/tabler to v1.2.3 ([2cb5025](https://github.com/ShoGinn/k2aerospace.org/commit/2cb502522112c9263acfa3c6e9ea4ce80dd3f9e6))
+
 ## [0.0.24](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.23...v0.0.24) (2024-09-14)
 
 
