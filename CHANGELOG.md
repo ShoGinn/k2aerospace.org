@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.26](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.25...v0.0.26) (2024-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @iconify-json/tabler to v1.2.4 ([4cfb0c0](https://github.com/ShoGinn/k2aerospace.org/commit/4cfb0c0244af6688a4313431db9eae52aad9fe11))
+
 ## [0.0.25](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.24...v0.0.25) (2024-09-19)
 
 
