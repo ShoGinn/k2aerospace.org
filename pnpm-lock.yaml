@@ -21,11 +21,11 @@ importers:
         specifier: 5.1.1
         version: 5.1.1(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))(tailwindcss@3.4.13)
       '@astrolib/analytics':
-        specifier: 0.5.0
-        version: 0.5.0(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))
+        specifier: 0.6.1
+        version: 0.6.1(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))
       '@astrolib/seo':
-        specifier: 1.0.0-beta.6
-        version: 1.0.0-beta.6(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))
+        specifier: 1.0.0-beta.8
+        version: 1.0.0-beta.8(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -246,15 +246,15 @@ packages:
   '@astrojs/yaml2ts@0.2.1':
     resolution: {integrity: sha512-CBaNwDQJz20E5WxzQh4thLVfhB3JEEGz72wRA+oJp6fQR37QLAqXZJU0mHC+yqMOQ6oj0GfRPJrz6hjf+zm6zA==}
 
-  '@astrolib/analytics@0.5.0':
-    resolution: {integrity: sha512-NlTFTUtsjVEAb2ZzYXZ5XBvak7JH3ixaQTq5r+q5PZtealHajUSPzaY1UrcJOJDJrOFHf5pvxBnYmCEzE9fIjw==}
+  '@astrolib/analytics@0.6.1':
+    resolution: {integrity: sha512-BrOGe88JuprEXhvLg1eJxaGcR9ZzuYPZE00QwcvQ1EBAucODxbg4FJG57G5yoAYjyXjr7GsPy4+46X2jB+64hg==}
     peerDependencies:
-      astro: ^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0
+      astro: ^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0 || ^5.0.0
 
-  '@astrolib/seo@1.0.0-beta.6':
-    resolution: {integrity: sha512-j9YuxCGZUl6cHErg9O7Ss+AjDHxgUZVzLrc6hADZfEagY84dCr/HRYFEtrTstxEiW+YNdjCRr5S+Y7HZ7KUEmw==}
+  '@astrolib/seo@1.0.0-beta.8':
+    resolution: {integrity: sha512-SpNycspjcjnz6um4Vph0k+SAKgUib7/8qJRCaaahJD1UfLuXKK7E+bmKbnv8QPBTRPZkQW6zFVaZRl5VvnyDfg==}
     peerDependencies:
-      astro: ^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0
+      astro: ^1.2.1 || ^2.0.0 || ^3.0.0-beta.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0 || ^5.0.0
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -4332,11 +4332,11 @@ snapshots:
     dependencies:
       yaml: 2.5.1
 
-  '@astrolib/analytics@0.5.0(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))':
+  '@astrolib/analytics@0.6.1(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))':
     dependencies:
       astro: 4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2)
 
-  '@astrolib/seo@1.0.0-beta.6(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))':
+  '@astrolib/seo@1.0.0-beta.8(astro@4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2))':
     dependencies:
       astro: 4.15.11(@types/node@22.1.0)(lightningcss@1.25.1)(rollup@4.20.0)(terser@5.31.3)(typescript@5.6.2)
 
