@@ -7,6 +7,7 @@ const load = async function () {
   try {
     images = import.meta.glob('~/assets/images/**/*.{jpeg,jpg,png,tiff,webp,gif,svg,JPEG,JPG,PNG,TIFF,WEBP,GIF,SVG}');
   } catch (e) {
+    // continue regardless of error
     console.error('Error loading images:', e);
   }
   return images;
@@ -96,11 +97,4 @@ export const adaptOpenGraphImages = async (
   );
 
   return { ...openGraph, ...(adaptedImages ? { images: adaptedImages } : {}) };
-};
-export const ourRiversImageProps = {
-  class: 'w-full h-80 object-cover rounded-xl mx-auto bg-gray-500 shadow-lg',
-  width: 'auto',
-  height: 320,
-  widths: [400, 768],
-  layout: 'fullWidth',
 };

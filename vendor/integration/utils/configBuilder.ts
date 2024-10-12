@@ -2,7 +2,7 @@ import merge from 'lodash.merge';
 
 import type { MetaData } from '~/types';
 
-type Config = {
+export type Config = {
   site?: SiteConfig;
   metadata?: MetaDataConfig;
   i18n?: I18NConfig;
@@ -28,7 +28,6 @@ export interface I18NConfig {
   textDirection: string;
   dateFormatter?: Intl.DateTimeFormat;
 }
-
 export interface AnalyticsConfig {
   vendors: {
     googleAnalytics: {
@@ -38,7 +37,9 @@ export interface AnalyticsConfig {
   };
 }
 
-export type UIConfig = object;
+export interface UIConfig {
+  theme: string;
+}
 
 const DEFAULT_SITE_NAME = 'Website';
 

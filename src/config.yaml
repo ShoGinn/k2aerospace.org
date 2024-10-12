@@ -1,32 +1,33 @@
 site:
   name: K2 Aerospace
-  site: 'https://k2aerospace.org'
-  base: '/'
+  site: "https://k2aerospace.org"
+  base: "/"
   trailingSlash: false
 
-  googleSiteVerificationId: ''
+  googleSiteVerificationId: ""
 
 # Default SEO metadata
 metadata:
   title:
     default: K2 Aerospace
-    template: '%s — K2 Aerospace'
-  description: 'Trusted space industry consulting. Subject matter expertise. Mission
-    planning. Risk assessment.'
+    template: "%s — K2 Aerospace"
+  description:
+    "Trusted space industry consulting. Subject matter expertise. Mission
+    planning. Risk assessment."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: K2 Aerospace
     images:
-      - url: '~/assets/images/default.png'
+      - url: "~/assets/images/default.png"
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: ''
-    site: ''
-    cardType: ''
+    handle: ""
+    site: ""
+    cardType: ""
 
 i18n:
   language: en
@@ -35,7 +36,7 @@ i18n:
 analytics:
   vendors:
     googleAnalytics:
-      id: '#' # or "G-XXXXXXXXXX"
+      id: "#" # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: "light:only" # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
