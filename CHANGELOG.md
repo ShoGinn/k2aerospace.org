@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.31](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.30...v0.0.31) (2024-10-18)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([660aee3](https://github.com/ShoGinn/k2aerospace.org/commit/660aee3ff4a701178b6d9b0c4ee170b5767d98ac))
+* **deps:** update dependency astro to v4.16.1 ([e004424](https://github.com/ShoGinn/k2aerospace.org/commit/e00442429a04e0acadb07cdbfd609637d552d1c5))
+* **deps:** update dependency astro to v4.16.2 ([adbf60f](https://github.com/ShoGinn/k2aerospace.org/commit/adbf60f0b6345e11f43844b9234b7fd82af6318a))
+* **deps:** update dependency astro to v4.16.5 ([c551fa5](https://github.com/ShoGinn/k2aerospace.org/commit/c551fa54fefaa8009dbc1479a4da09a7b5b41dae))
+* **deps:** update dependency astro to v4.16.6 ([e9a27b3](https://github.com/ShoGinn/k2aerospace.org/commit/e9a27b3f9a744435c3b7af8cdcf3f92391f2c8a0))
+
 ## [0.0.30](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.29...v0.0.30) (2024-10-11)
 
 
