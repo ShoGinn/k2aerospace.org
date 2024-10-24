@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.32](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.31...v0.0.32) (2024-10-24)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([1645716](https://github.com/ShoGinn/k2aerospace.org/commit/16457162c37c9459671f5fb10ab85a86ee300a4a))
+* **deps:** update dependency astro-compress to v2.3.5 ([0833c56](https://github.com/ShoGinn/k2aerospace.org/commit/0833c56c97a1222a751c47ee0706242f53d4be0a))
+
 ## [0.0.31](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.30...v0.0.31) (2024-10-18)
 
 
