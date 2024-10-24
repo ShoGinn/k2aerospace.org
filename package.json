@@ -30,7 +30,7 @@
     "@iconify-json/flat-color-icons": "1.2.0",
     "@iconify-json/mdi": "1.2.1",
     "@iconify-json/tabler": "1.2.6",
-    "astro-compress": "2.3.4",
+    "astro-compress": "2.3.5",
     "@tailwindcss/typography": "0.5.15",
     "astro": "4.16.7",
     "astro-embed": "0.7.4",
