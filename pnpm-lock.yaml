@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/mdx':
         specifier: 3.1.9
-        version: 3.1.9(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+        version: 3.1.9(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       '@astrojs/partytown':
         specifier: 2.1.2
         version: 2.1.2
@@ -19,13 +19,13 @@ importers:
         version: 3.2.1
       '@astrojs/tailwind':
         specifier: 5.1.2
-        version: 5.1.2(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))(tailwindcss@3.4.14)
+        version: 5.1.2(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))(tailwindcss@3.4.14)
       '@astrolib/analytics':
         specifier: 0.6.1
-        version: 0.6.1(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+        version: 0.6.1(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       '@astrolib/seo':
         specifier: 1.0.0-beta.8
-        version: 1.0.0-beta.8(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+        version: 1.0.0-beta.8(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -42,14 +42,14 @@ importers:
         specifier: 0.5.15
         version: 0.5.15(tailwindcss@3.4.14)
       astro:
-        specifier: 4.16.9
-        version: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+        specifier: 4.16.10
+        version: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
       astro-compress:
         specifier: 2.3.5
         version: 2.3.5(@types/node@22.7.4)(rollup@4.24.0)(typescript@5.6.3)
       astro-embed:
         specifier: 0.8.0
-        version: 0.8.0(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+        version: 0.8.0(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       astro-icon:
         specifier: 1.1.2
         version: 1.1.2
@@ -82,8 +82,8 @@ importers:
         specifier: 19.5.0
         version: 19.5.0
       '@cspell/eslint-plugin':
-        specifier: 8.15.7
-        version: 8.15.7(eslint@9.14.0(jiti@1.21.6))
+        specifier: 8.16.0
+        version: 8.16.0(eslint@9.14.0(jiti@1.21.6))
       '@eslint/js':
         specifier: 9.14.0
         version: 9.14.0
@@ -109,8 +109,8 @@ importers:
         specifier: 9.14.0
         version: 9.14.0(jiti@1.21.6)
       eslint-plugin-astro:
-        specifier: 1.3.0
-        version: 1.3.0(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3)
+        specifier: 1.3.1
+        version: 1.3.1(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3)
       globals:
         specifier: 15.12.0
         version: 15.12.0
@@ -415,24 +415,24 @@ packages:
     resolution: {integrity: sha512-DSHae2obMSMkAtTBSOulg5X7/z+rGLxcXQIkg3OmWvY6wifojge5uVMydfhUvs7yQj+V7jNmRZ2Xzl8GJyqRgg==}
     engines: {node: '>=v18'}
 
-  '@cspell/cspell-bundled-dicts@8.15.7':
-    resolution: {integrity: sha512-lNbrlHhDnOWCJh/vNCliZJz4X1KMEZqWJZpTgmdPrEGS9ZyfEiCmZyoQzw+fauC5Xo7dwd2KdS9VMHftAJqMPQ==}
+  '@cspell/cspell-bundled-dicts@8.16.0':
+    resolution: {integrity: sha512-R0Eqq5kTZnmZ0elih5uY3TWjMqqAeMl7ciU7maUs+m1FNjCEdJXtJ9wrQxNgjmXi0tX8cvahZRO3O558tEz/KA==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-pipe@8.15.7':
-    resolution: {integrity: sha512-EyVSJPqJFrDA9Sj4Nzx13vytloMS0V3HaevhqMFLHJ53QNz/ZP7vuECbXApRAJwLonuToJBvY3b9xzB6eEhU/A==}
+  '@cspell/cspell-pipe@8.16.0':
+    resolution: {integrity: sha512-WoCgrv/mrtwCY4lhc6vEcqN3AQ7lT6K0NW5ShoSo116U2tRaW0unApIYH4Va8u7T9g3wyspFEceQRR1xD9qb9w==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-resolver@8.15.7':
-    resolution: {integrity: sha512-9RPZ5VwjYPYLTLWkoPGHqV3Kuai5QwTWgZJW3Yk2GgJkxss/LDsXME+9CalPcPBQpnCIBEOtE2DjDQbFjAiMnA==}
+  '@cspell/cspell-resolver@8.16.0':
+    resolution: {integrity: sha512-b+99bph43ptkXlQHgPXSkN/jK6LQHy2zL1Fm9up7+x6Yr64bxAzWzoeqJAPtnrPvFuOrFN0jZasZzKBw8CvrrQ==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-service-bus@8.15.7':
-    resolution: {integrity: sha512-kL+1+K4VApdwZccGlg7Vjmh4CzzjoT+G556/gErdESQFPY0y9/4OPPVKLrFkbEDODtp9Py7aTRHdhl6w1xxCCw==}
+  '@cspell/cspell-service-bus@8.16.0':
+    resolution: {integrity: sha512-+fn763JKA4EYCOv+1VShFq015UMEBAFRDr+rlCnesgLE0fv9TSFVLsjOfh9/g6GuGQLCRLUqKztwwuueeErstQ==}
     engines: {node: '>=18'}
 
-  '@cspell/cspell-types@8.15.7':
-    resolution: {integrity: sha512-QMbGJsUXTdV8/V9Gsc/kBgdkBwm4hvcChhQf6KE9yeg3CZlbd95NkFJuSiqp1phJOWMTzHCZ0Ro7v7P/LGKdVA==}
+  '@cspell/cspell-types@8.16.0':
+    resolution: {integrity: sha512-bGrIK7p4NVsK+QX/CYWmjax+FkzfSIZaIaoiBESGV5gmwgXDVRMJ3IP6tQVAmTtckOYHCmtT5CZgI8zXWr8dHQ==}
     engines: {node: '>=18'}
 
   '@cspell/dict-ada@4.0.5':
@@ -450,8 +450,8 @@ packages:
   '@cspell/dict-companies@3.1.7':
     resolution: {integrity: sha512-ncVs/efuAkP1/tLDhWbXukBjgZ5xOUfe03neHMWsE8zvXXc5+Lw6TX5jaJXZLOoES/f4j4AhRE20jsPCF5pm+A==}
 
-  '@cspell/dict-cpp@6.0.0':
-    resolution: {integrity: sha512-z9Mv3/Ool19aw/kl1C+NmLdHF5WN6XCDmP4UkM/sYIfBO4WMUmrhiKiqK/pzSih9jyC5C2AuxujtB/IdHmyfVg==}
+  '@cspell/dict-cpp@6.0.2':
+    resolution: {integrity: sha512-yw5eejWvY4bAnc6LUA44m4WsFwlmgPt2uMSnO7QViGMBDuoeopMma4z9XYvs4lSjTi8fIJs/A1YDfM9AVzb8eg==}
 
   '@cspell/dict-cryptocurrencies@5.0.3':
     resolution: {integrity: sha512-bl5q+Mk+T3xOZ12+FG37dB30GDxStza49Rmoax95n37MTLksk9wBo1ICOlPJ6PnDUSyeuv4SIVKgRKMKkJJglA==}
@@ -557,11 +557,11 @@ packages:
   '@cspell/dict-monkeyc@1.0.9':
     resolution: {integrity: sha512-Jvf6g5xlB4+za3ThvenYKREXTEgzx5gMUSzrAxIiPleVG4hmRb/GBSoSjtkGaibN3XxGx5x809gSTYCA/IHCpA==}
 
-  '@cspell/dict-node@5.0.4':
-    resolution: {integrity: sha512-Hz5hiuOvZTd7Cp1IBqUZ7/ChwJeQpD5BJuwCaDn4mPNq4iMcQ1iWBYMThvNVqCEDgKv63X52nT8RAWacss98qg==}
+  '@cspell/dict-node@5.0.5':
+    resolution: {integrity: sha512-7NbCS2E8ZZRZwlLrh2sA0vAk9n1kcTUiRp/Nia8YvKaItGXLfxYqD2rMQ3HpB1kEutal6hQLVic3N2Yi1X7AaA==}
 
-  '@cspell/dict-npm@5.1.9':
-    resolution: {integrity: sha512-ZH10gepefFee03SYQXH4mMmYbI3iwwEg5+B0ujsUohGJR789SyieelY0xPiDeh1y9gcQAp62k1QxbUwpcCYe5A==}
+  '@cspell/dict-npm@5.1.11':
+    resolution: {integrity: sha512-5ricJyVMw5TmqR0NfsZS8jEJu1+DLzyUXyjpVFnffPuEtz9jF2XswLK0swZqc9uwWrz0M7IhGVCnmq90srVZCA==}
 
   '@cspell/dict-php@4.0.13':
     resolution: {integrity: sha512-P6sREMZkhElzz/HhXAjahnICYIqB/HSGp1EhZh+Y6IhvC15AzgtDP8B8VYCIsQof6rPF1SQrFwunxOv8H1e2eg==}
@@ -587,8 +587,8 @@ packages:
   '@cspell/dict-scala@5.0.6':
     resolution: {integrity: sha512-tl0YWAfjUVb4LyyE4JIMVE8DlLzb1ecHRmIWc4eT6nkyDqQgHKzdHsnusxFEFMVLIQomgSg0Zz6hJ5S1E4W4ww==}
 
-  '@cspell/dict-software-terms@4.1.12':
-    resolution: {integrity: sha512-MHDAK/WlEdMJiDQ6lJ3SF7VogdfJcRXGYWfO4v90rxW8HDVfKDXVk3zpJhjoZGq56ujR1qmeYkQsM6MlB69uJA==}
+  '@cspell/dict-software-terms@4.1.13':
+    resolution: {integrity: sha512-S8TLDjY+piV8nmzn4/acwKjDbUtOqfJ9Cb3gZ9egjU/Fm8DBaQ7ziR1S2wntxlGLud9cly+LoWnEoWJYDZFveQ==}
 
   '@cspell/dict-sql@2.1.8':
     resolution: {integrity: sha512-dJRE4JV1qmXTbbGm6WIcg1knmR6K5RXnQxF4XHs5HA3LAjc/zf77F95i5LC+guOGppVF6Hdl66S2UyxT+SAF3A==}
@@ -608,26 +608,26 @@ packages:
   '@cspell/dict-vue@3.0.3':
     resolution: {integrity: sha512-akmYbrgAGumqk1xXALtDJcEcOMYBYMnkjpmGzH13Ozhq1mkPF4VgllFQlm1xYde+BUKNnzMgPEzxrL2qZllgYA==}
 
-  '@cspell/dynamic-import@8.15.7':
-    resolution: {integrity: sha512-qFlVisdP2lvFcS4Kre4Dl+f4Y7U9w/Y7IQAS+XXl5KlInImMaYhNUDEru8DoUPQHYsXKAPJsu/Y2JloHNE502Q==}
+  '@cspell/dynamic-import@8.16.0':
+    resolution: {integrity: sha512-FH+B5y71qfunagXiLSJhXP9h/Vwb1Z8Cc/hLmliGekw/Y8BuYknL86tMg9grXBYNmM0kifIv6ZesQl8Km/p/rA==}
     engines: {node: '>=18.0'}
 
-  '@cspell/eslint-plugin@8.15.7':
-    resolution: {integrity: sha512-VrdKpLjWrDPPG9p4ee4/Fc1iLF9mcf2b1MCFmt7dG3+JSEnwp5hTKVmomi7D2XB/YMIwUIrtXEbsVbHg5PV2rA==}
+  '@cspell/eslint-plugin@8.16.0':
+    resolution: {integrity: sha512-j4vmbq30cq2kRR5xMAjfLraFW6ZrSxlAbEk06vC1T3Zxl9fOclOQVsxZ2afLd7TB0NKsrSjS2mFBHBlNkDmSFA==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^7 || ^8 || ^9
 
-  '@cspell/filetypes@8.15.7':
-    resolution: {integrity: sha512-MeP6gh8Om9vHSxYoYey2BFCib4m+vEyMLQCSub1Gk+uXiJjj1l/S5MFWM9zHhjGBBNNdvuopuUKP6Gcgcw+3Cw==}
+  '@cspell/filetypes@8.16.0':
+    resolution: {integrity: sha512-u2Ub0uSwXFPJFvXhAO/0FZBj3sMr4CeYCiQwTUsdFRkRMFpbTc7Vf+a+aC2vIj6WcaWrYXrJy3NZF/yjqF6SGw==}
     engines: {node: '>=18'}
 
-  '@cspell/strong-weak-map@8.15.7':
-    resolution: {integrity: sha512-SGlkhRnHXoBzLY2SxVppMsREhyaDHpyXQrPDUfsCnyG5DC8UVmXnTVQp9c2kqhAZw6g6g6V7uoqTLqJQmrWOFQ==}
+  '@cspell/strong-weak-map@8.16.0':
+    resolution: {integrity: sha512-R6N12wEIQpBk2uyni/FU1SFSIjP0uql7ynXVcF1ob8/JJeRoikssydi9Xq5J6ghMw+X50u35mFvg9BgWKz0d+g==}
     engines: {node: '>=18'}
 
-  '@cspell/url@8.15.7':
-    resolution: {integrity: sha512-IzBsrl54TyO5Ezbyr25ZOUZA3Sg2UbSWDZZar9jSRAsoikcsoy1ivgSumcYJYOH8HAtanfr8YGN0+8UF/kbYqg==}
+  '@cspell/url@8.16.0':
+    resolution: {integrity: sha512-zW+6hAieD/FjysfjY4mVv7iHWWasBP3ldj6L+xy2p4Kuax1nug7uuJqMHlAVude/OywNwENG0rYaP/P9Pg4O+w==}
     engines: {node: '>=18.0'}
 
   '@emmetio/abbreviation@2.3.3':
@@ -1306,10 +1306,6 @@ packages:
     resolution: {integrity: sha512-QJwc50hRCgBd/k12sTykOJbESe1RrzmX6COk8Y525C9l7oweZ+1lw9JiU56im7Amm8swlz00DRIlxMYLizr2Vw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@typescript-eslint/types@8.9.0':
-    resolution: {integrity: sha512-SjgkvdYyt1FAPhU9c6FiYCXrldwYYlIQLkuc+LfAhCna6ggp96ACncdtlbn8FmnG72tUkXclrDExOpEYf1nfJQ==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
   '@typescript-eslint/typescript-estree@8.13.0':
     resolution: {integrity: sha512-v7SCIGmVsRK2Cy/LTLGN22uea6SaUIlpBcO/gnMGT/7zPtxp90bphcGf4fyrCQl3ZtiBKqVTG32hb668oIYy1g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -1477,8 +1473,8 @@ packages:
   astro-icon@1.1.2:
     resolution: {integrity: sha512-2qAHBtZLYuFEIMP0Ck0edyLi5fQmJjwP2Qbv41f8L4KAJ2sra/dH7q5lCOn4q0DHVtS0w3tPG8UKQRits3UPcg==}
 
-  astro@4.16.9:
-    resolution: {integrity: sha512-DFYzPZooVArKSGu969BBByUV44tJMVDPGKxgqWNFBaIrkvGljdVUqQSVwD+/iPYACoSkI8BRYvDMEBDkathIUQ==}
+  astro@4.16.10:
+    resolution: {integrity: sha512-a+nB4bZE50NXHLzVXUHtx/lYct2Aa8kbqZnWNrWqkU97RuhBuWJ5H5/LQbKRnBWGvqChKfJBiMWJe53TY9ieYQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1758,33 +1754,33 @@ packages:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
 
-  cspell-config-lib@8.15.7:
-    resolution: {integrity: sha512-orxPKLMLQjk+Px1wlZdMElsHlKFGiwlXhQcG/36hODFKsle9DnGqVefOjH6aWFO5DyDF+Z678leiO2F30wtXEQ==}
+  cspell-config-lib@8.16.0:
+    resolution: {integrity: sha512-PGT6ohLtIYXYLIm+R5hTcTrF0dzj8e7WAUJSJe5WlV/7lrwVdwgWaliLcXtSSPmfxgczr6sndX9TMJ2IEmPrmg==}
     engines: {node: '>=18'}
 
-  cspell-dictionary@8.15.7:
-    resolution: {integrity: sha512-jmOk9kJ/bsVFg0/ObnNMUHA3wPgHb4eGFx6yF+Lx28eYx9j2XkLZuXXicbNyOWqJ9AzP0CavPmHwAS6bJrxD3Q==}
+  cspell-dictionary@8.16.0:
+    resolution: {integrity: sha512-Y3sN6ttLBKbu0dOLcduY641n5QP1srUvZkW4bOTnG455DbIZfilrP1El/2Hl0RS6hC8LN9PM4bsIm/2xgdbApA==}
     engines: {node: '>=18'}
 
-  cspell-glob@8.15.7:
-    resolution: {integrity: sha512-BI0mF0IWqVxEGpRkH2kBgT9Ey7lAMlEhvY/zKCy3JQY5PSn/qI3RhlsXrsTDt2RJxhicuzJIe3KiNdUKXQM0Ig==}
+  cspell-glob@8.16.0:
+    resolution: {integrity: sha512-xJSXRHwfENCNFmjpVSEucXY8E3BrpSCA+TukmOYtLyaMKtn6EAwoCpEU7Oj2tZOjdivprPmQ74k4Dqb1RHjIVQ==}
     engines: {node: '>=18'}
 
-  cspell-grammar@8.15.7:
-    resolution: {integrity: sha512-g7ocpFG9Gam4+b2bHrqhmXVaFNV4BjFjVnaEKS3RoqcMjJuQUa9wD5HWO6AvBJeJf/auvQS7CgmumQqSo9xxCw==}
+  cspell-grammar@8.16.0:
+    resolution: {integrity: sha512-vvbJEkBqXocGH/H975RtkfMzVpNxNGMd0JCDd+NjbpeRyZceuChFw5Tie7kHteFY29SwZovub+Am3F4H1kmf9A==}
     engines: {node: '>=18'}
     hasBin: true
 
-  cspell-io@8.15.7:
-    resolution: {integrity: sha512-GEnMPu+xyyHTal2QdCbuRrPUEpjCYo0mF/Tz/YkcZNJdn0sj6MylH2EA0A+d6WzheRpw9ijd1dRvq3h5jJgmuQ==}
+  cspell-io@8.16.0:
+    resolution: {integrity: sha512-WIK5uhPMjGsTAzm2/fGRbIdr7zWsMVG1fn8wNJYUiYELuyvzvLelfI1VG6szaFCGYqd6Uvgb/fS0uNbwGqCLAQ==}
     engines: {node: '>=18'}
 
-  cspell-lib@8.15.7:
-    resolution: {integrity: sha512-RxxPEymTENc76f8ny1LN+aPyR4Efwyah8m5c20xOwxD/lAhBrNs2PPE1taEMPkI7WTXWjKm4D0DJpZatD+W6pg==}
+  cspell-lib@8.16.0:
+    resolution: {integrity: sha512-fU8CfECyuhT12COIi4ViQu2bTkdqaa+05YSd2ZV8k8NA7lapPaMFnlooxdfcwwgZJfHeMhRVMzvQF1OhWmwGfA==}
     engines: {node: '>=18'}
 
-  cspell-trie-lib@8.15.7:
-    resolution: {integrity: sha512-b8WWWOx5wfhT72K43fk3dMoE4H2c1UpbCEVB2JXJ5scub7mjqoT/CRiZlw1IDfQT6BmUtJuD7sZ8NRFanF9hQA==}
+  cspell-trie-lib@8.16.0:
+    resolution: {integrity: sha512-Io1qqI0r4U9ewAWBLClFBBlxLeAoIi15PUGJi4Za1xrlgQJwRE8PMNIJNHKmPEIp78Iute3o/JyC2OfWlxl4Sw==}
     engines: {node: '>=18'}
 
   css-select@5.1.0:
@@ -1982,14 +1978,14 @@ packages:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
 
-  eslint-compat-utils@0.5.1:
-    resolution: {integrity: sha512-3z3vFexKIEnjHE3zCMRo6fn/e44U7T1khUjg+Hp0ZQMCigh28rALD0nPFBcGZuiLC5rLZa2ubQHDRln09JfU2Q==}
+  eslint-compat-utils@0.6.0:
+    resolution: {integrity: sha512-1vVBdI/HLS6HTHVQCJGlN+LOF0w1Rs/WB9se23mQr84cRM0iMM8PulMFFhQdQ1BvS0cGwjpis4xziI91Rk0l6g==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-plugin-astro@1.3.0:
-    resolution: {integrity: sha512-T4bAYOdF0V8zqFF/EeQat5xcYQV5nDmLeZgD1eHbcogY94HBOncwZxsOgcPNGpdCLXkpBDNbF2OMtrj26f5RFA==}
+  eslint-plugin-astro@1.3.1:
+    resolution: {integrity: sha512-2XaLCMQm8htW1UvJvy1Zcmg8l0ziskitiUfJTn/w1Mk7r4Mxj0fZeNpN6UTNrm64XBIXSa5h8UCGrg8mdu47+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.57.0'
@@ -3087,8 +3083,8 @@ packages:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
     engines: {node: '>= 0.8.0'}
 
-  ora@8.1.0:
-    resolution: {integrity: sha512-GQEkNkH/GHOhPFXcqZs3IDahXEQcQxsSjEkK4KvEEST4t7eNzoMjxTzef+EZ+JluDEV+Raoi3WQ2CflnRdSVnQ==}
+  ora@8.1.1:
+    resolution: {integrity: sha512-YWielGi1XzG1UTvOaCFaNgEnuhZVMSHYkW/FQ7UX8O26PtlpdM84c0f7wLPlkvx2RfiQmnzd61d/MGxmpQeJPw==}
     engines: {node: '>=18'}
 
   p-limit@2.3.0:
@@ -3284,6 +3280,10 @@ packages:
 
   postcss-selector-parser@6.1.2:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
+    engines: {node: '>=4'}
+
+  postcss-selector-parser@7.0.0:
+    resolution: {integrity: sha512-9RbEr1Y7FFfptd/1eEdntyjMwLeghW1bHX9GWjXo19vx4ytPQhANltvVxDggzJl7mnWM+dX28kb6cyS/4iQjlQ==}
     engines: {node: '>=4'}
 
   postcss-value-parser@4.2.0:
@@ -4138,43 +4138,43 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@astro-community/astro-embed-baseline-status@0.1.1(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astro-community/astro-embed-baseline-status@0.1.1(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
-  '@astro-community/astro-embed-integration@0.7.2(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astro-community/astro-embed-integration@0.7.2(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
       '@astro-community/astro-embed-link-preview': 0.2.2
-      '@astro-community/astro-embed-twitter': 0.5.6(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
-      '@astro-community/astro-embed-vimeo': 0.3.10(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
-      '@astro-community/astro-embed-youtube': 0.5.5(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-twitter': 0.5.6(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-vimeo': 0.3.10(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-youtube': 0.5.5(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       '@types/unist': 2.0.11
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
-      astro-auto-import: 0.4.2(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro-auto-import: 0.4.2(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       unist-util-select: 4.0.3
 
   '@astro-community/astro-embed-link-preview@0.2.2':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
 
-  '@astro-community/astro-embed-twitter@0.5.6(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astro-community/astro-embed-twitter@0.5.6(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
   '@astro-community/astro-embed-utils@0.1.3':
     dependencies:
       linkedom: 0.14.26
 
-  '@astro-community/astro-embed-vimeo@0.3.10(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astro-community/astro-embed-vimeo@0.3.10(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
-  '@astro-community/astro-embed-youtube@0.5.5(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astro-community/astro-embed-youtube@0.5.5(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
       lite-youtube-embed: 0.3.3
 
   '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.3)':
@@ -4241,12 +4241,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@3.1.9(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astrojs/mdx@3.1.9(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
       '@astrojs/markdown-remark': 5.3.0
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       gray-matter: 4.0.3
@@ -4276,9 +4276,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))(tailwindcss@3.4.14)':
     dependencies:
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -4302,13 +4302,13 @@ snapshots:
     dependencies:
       yaml: 2.5.1
 
-  '@astrolib/analytics@0.6.1(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astrolib/analytics@0.6.1(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
-  '@astrolib/seo@1.0.0-beta.8(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
+  '@astrolib/seo@1.0.0-beta.8(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))':
     dependencies:
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -4542,14 +4542,14 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.0
       chalk: 5.3.0
 
-  '@cspell/cspell-bundled-dicts@8.15.7':
+  '@cspell/cspell-bundled-dicts@8.16.0':
     dependencies:
       '@cspell/dict-ada': 4.0.5
       '@cspell/dict-al': 1.0.3
       '@cspell/dict-aws': 4.0.7
       '@cspell/dict-bash': 4.1.8
       '@cspell/dict-companies': 3.1.7
-      '@cspell/dict-cpp': 6.0.0
+      '@cspell/dict-cpp': 6.0.2
       '@cspell/dict-cryptocurrencies': 5.0.3
       '@cspell/dict-csharp': 4.0.5
       '@cspell/dict-css': 4.0.16
@@ -4582,8 +4582,8 @@ snapshots:
       '@cspell/dict-makefile': 1.0.3
       '@cspell/dict-markdown': 2.0.7(@cspell/dict-css@4.0.16)(@cspell/dict-html-symbol-entities@4.0.3)(@cspell/dict-html@4.0.10)(@cspell/dict-typescript@3.1.11)
       '@cspell/dict-monkeyc': 1.0.9
-      '@cspell/dict-node': 5.0.4
-      '@cspell/dict-npm': 5.1.9
+      '@cspell/dict-node': 5.0.5
+      '@cspell/dict-npm': 5.1.11
       '@cspell/dict-php': 4.0.13
       '@cspell/dict-powershell': 5.0.13
       '@cspell/dict-public-licenses': 2.0.11
@@ -4592,7 +4592,7 @@ snapshots:
       '@cspell/dict-ruby': 5.0.7
       '@cspell/dict-rust': 4.0.9
       '@cspell/dict-scala': 5.0.6
-      '@cspell/dict-software-terms': 4.1.12
+      '@cspell/dict-software-terms': 4.1.13
       '@cspell/dict-sql': 2.1.8
       '@cspell/dict-svelte': 1.0.5
       '@cspell/dict-swift': 2.0.4
@@ -4600,15 +4600,15 @@ snapshots:
       '@cspell/dict-typescript': 3.1.11
       '@cspell/dict-vue': 3.0.3
 
-  '@cspell/cspell-pipe@8.15.7': {}
+  '@cspell/cspell-pipe@8.16.0': {}
 
-  '@cspell/cspell-resolver@8.15.7':
+  '@cspell/cspell-resolver@8.16.0':
     dependencies:
       global-directory: 4.0.1
 
-  '@cspell/cspell-service-bus@8.15.7': {}
+  '@cspell/cspell-service-bus@8.16.0': {}
 
-  '@cspell/cspell-types@8.15.7': {}
+  '@cspell/cspell-types@8.16.0': {}
 
   '@cspell/dict-ada@4.0.5': {}
 
@@ -4620,7 +4620,7 @@ snapshots:
 
   '@cspell/dict-companies@3.1.7': {}
 
-  '@cspell/dict-cpp@6.0.0': {}
+  '@cspell/dict-cpp@6.0.2': {}
 
   '@cspell/dict-cryptocurrencies@5.0.3': {}
 
@@ -4693,9 +4693,9 @@ snapshots:
 
   '@cspell/dict-monkeyc@1.0.9': {}
 
-  '@cspell/dict-node@5.0.4': {}
+  '@cspell/dict-node@5.0.5': {}
 
-  '@cspell/dict-npm@5.1.9': {}
+  '@cspell/dict-npm@5.1.11': {}
 
   '@cspell/dict-php@4.0.13': {}
 
@@ -4715,7 +4715,7 @@ snapshots:
 
   '@cspell/dict-scala@5.0.6': {}
 
-  '@cspell/dict-software-terms@4.1.12': {}
+  '@cspell/dict-software-terms@4.1.13': {}
 
   '@cspell/dict-sql@2.1.8': {}
 
@@ -4729,23 +4729,23 @@ snapshots:
 
   '@cspell/dict-vue@3.0.3': {}
 
-  '@cspell/dynamic-import@8.15.7':
+  '@cspell/dynamic-import@8.16.0':
     dependencies:
       import-meta-resolve: 4.1.0
 
-  '@cspell/eslint-plugin@8.15.7(eslint@9.14.0(jiti@1.21.6))':
+  '@cspell/eslint-plugin@8.16.0(eslint@9.14.0(jiti@1.21.6))':
     dependencies:
-      '@cspell/cspell-types': 8.15.7
-      '@cspell/url': 8.15.7
-      cspell-lib: 8.15.7
+      '@cspell/cspell-types': 8.16.0
+      '@cspell/url': 8.16.0
+      cspell-lib: 8.16.0
       eslint: 9.14.0(jiti@1.21.6)
       synckit: 0.9.2
 
-  '@cspell/filetypes@8.15.7': {}
+  '@cspell/filetypes@8.16.0': {}
 
-  '@cspell/strong-weak-map@8.15.7': {}
+  '@cspell/strong-weak-map@8.16.0': {}
 
-  '@cspell/url@8.15.7': {}
+  '@cspell/url@8.16.0': {}
 
   '@emmetio/abbreviation@2.3.3':
     dependencies:
@@ -5402,8 +5402,6 @@ snapshots:
 
   '@typescript-eslint/types@8.8.0': {}
 
-  '@typescript-eslint/types@8.9.0': {}
-
   '@typescript-eslint/typescript-estree@8.13.0(typescript@5.6.3)':
     dependencies:
       '@typescript-eslint/types': 8.13.0
@@ -5579,18 +5577,18 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-auto-import@0.4.2(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)):
+  astro-auto-import@0.4.2(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)):
     dependencies:
       '@types/node': 18.19.54
       acorn: 8.14.0
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
   astro-compress@2.3.5(@types/node@22.7.4)(rollup@4.24.0)(typescript@5.6.3):
     dependencies:
       '@playform/pipe': 0.1.1
       '@types/csso': 5.0.4
       '@types/html-minifier-terser': 7.0.2
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
       commander: 12.1.0
       csso: 5.0.5
       deepmerge-ts: 7.1.3
@@ -5612,15 +5610,15 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-embed@0.8.0(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)):
+  astro-embed@0.8.0(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)):
     dependencies:
-      '@astro-community/astro-embed-baseline-status': 0.1.1(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
-      '@astro-community/astro-embed-integration': 0.7.2(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-baseline-status': 0.1.1(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-integration': 0.7.2(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
       '@astro-community/astro-embed-link-preview': 0.2.2
-      '@astro-community/astro-embed-twitter': 0.5.6(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
-      '@astro-community/astro-embed-vimeo': 0.3.10(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
-      '@astro-community/astro-embed-youtube': 0.5.5(astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
-      astro: 4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
+      '@astro-community/astro-embed-twitter': 0.5.6(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-vimeo': 0.3.10(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      '@astro-community/astro-embed-youtube': 0.5.5(astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3))
+      astro: 4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3)
 
   astro-eslint-parser@1.0.3(typescript@5.6.3):
     dependencies:
@@ -5650,7 +5648,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@4.16.9(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3):
+  astro@4.16.10(@types/node@22.7.4)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5694,7 +5692,7 @@ snapshots:
       micromatch: 4.0.8
       mrmime: 2.0.0
       neotraverse: 0.6.18
-      ora: 8.1.0
+      ora: 8.1.1
       p-limit: 6.1.0
       p-queue: 8.0.1
       preferred-pm: 4.0.0
@@ -6008,52 +6006,52 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  cspell-config-lib@8.15.7:
+  cspell-config-lib@8.16.0:
     dependencies:
-      '@cspell/cspell-types': 8.15.7
+      '@cspell/cspell-types': 8.16.0
       comment-json: 4.2.5
       yaml: 2.6.0
 
-  cspell-dictionary@8.15.7:
+  cspell-dictionary@8.16.0:
     dependencies:
-      '@cspell/cspell-pipe': 8.15.7
-      '@cspell/cspell-types': 8.15.7
-      cspell-trie-lib: 8.15.7
+      '@cspell/cspell-pipe': 8.16.0
+      '@cspell/cspell-types': 8.16.0
+      cspell-trie-lib: 8.16.0
       fast-equals: 5.0.1
 
-  cspell-glob@8.15.7:
+  cspell-glob@8.16.0:
     dependencies:
-      '@cspell/url': 8.15.7
+      '@cspell/url': 8.16.0
       micromatch: 4.0.8
 
-  cspell-grammar@8.15.7:
+  cspell-grammar@8.16.0:
     dependencies:
-      '@cspell/cspell-pipe': 8.15.7
-      '@cspell/cspell-types': 8.15.7
+      '@cspell/cspell-pipe': 8.16.0
+      '@cspell/cspell-types': 8.16.0
 
-  cspell-io@8.15.7:
+  cspell-io@8.16.0:
     dependencies:
-      '@cspell/cspell-service-bus': 8.15.7
-      '@cspell/url': 8.15.7
+      '@cspell/cspell-service-bus': 8.16.0
+      '@cspell/url': 8.16.0
 
-  cspell-lib@8.15.7:
+  cspell-lib@8.16.0:
     dependencies:
-      '@cspell/cspell-bundled-dicts': 8.15.7
-      '@cspell/cspell-pipe': 8.15.7
-      '@cspell/cspell-resolver': 8.15.7
-      '@cspell/cspell-types': 8.15.7
-      '@cspell/dynamic-import': 8.15.7
-      '@cspell/filetypes': 8.15.7
-      '@cspell/strong-weak-map': 8.15.7
-      '@cspell/url': 8.15.7
+      '@cspell/cspell-bundled-dicts': 8.16.0
+      '@cspell/cspell-pipe': 8.16.0
+      '@cspell/cspell-resolver': 8.16.0
+      '@cspell/cspell-types': 8.16.0
+      '@cspell/dynamic-import': 8.16.0
+      '@cspell/filetypes': 8.16.0
+      '@cspell/strong-weak-map': 8.16.0
+      '@cspell/url': 8.16.0
       clear-module: 4.1.2
       comment-json: 4.2.5
-      cspell-config-lib: 8.15.7
-      cspell-dictionary: 8.15.7
-      cspell-glob: 8.15.7
-      cspell-grammar: 8.15.7
-      cspell-io: 8.15.7
-      cspell-trie-lib: 8.15.7
+      cspell-config-lib: 8.16.0
+      cspell-dictionary: 8.16.0
+      cspell-glob: 8.16.0
+      cspell-grammar: 8.16.0
+      cspell-io: 8.16.0
+      cspell-trie-lib: 8.16.0
       env-paths: 3.0.0
       fast-equals: 5.0.1
       gensequence: 7.0.0
@@ -6063,10 +6061,10 @@ snapshots:
       vscode-uri: 3.0.8
       xdg-basedir: 5.1.0
 
-  cspell-trie-lib@8.15.7:
+  cspell-trie-lib@8.16.0:
     dependencies:
-      '@cspell/cspell-pipe': 8.15.7
-      '@cspell/cspell-types': 8.15.7
+      '@cspell/cspell-pipe': 8.16.0
+      '@cspell/cspell-types': 8.16.0
       gensequence: 7.0.0
 
   css-select@5.1.0:
@@ -6258,22 +6256,22 @@ snapshots:
 
   escape-string-regexp@5.0.0: {}
 
-  eslint-compat-utils@0.5.1(eslint@9.14.0(jiti@1.21.6)):
+  eslint-compat-utils@0.6.0(eslint@9.14.0(jiti@1.21.6)):
     dependencies:
       eslint: 9.14.0(jiti@1.21.6)
       semver: 7.6.3
 
-  eslint-plugin-astro@1.3.0(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3):
+  eslint-plugin-astro@1.3.1(eslint@9.14.0(jiti@1.21.6))(typescript@5.6.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.14.0(jiti@1.21.6))
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@typescript-eslint/types': 8.9.0
+      '@typescript-eslint/types': 8.13.0
       astro-eslint-parser: 1.0.3(typescript@5.6.3)
       eslint: 9.14.0(jiti@1.21.6)
-      eslint-compat-utils: 0.5.1(eslint@9.14.0(jiti@1.21.6))
+      eslint-compat-utils: 0.6.0(eslint@9.14.0(jiti@1.21.6))
       globals: 15.12.0
       postcss: 8.4.47
-      postcss-selector-parser: 6.1.2
+      postcss-selector-parser: 7.0.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -7688,7 +7686,7 @@ snapshots:
       type-check: 0.4.0
       word-wrap: 1.2.5
 
-  ora@8.1.0:
+  ora@8.1.1:
     dependencies:
       chalk: 5.3.0
       cli-cursor: 5.0.0
@@ -7883,6 +7881,11 @@ snapshots:
       util-deprecate: 1.0.2
 
   postcss-selector-parser@6.1.2:
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
+
+  postcss-selector-parser@7.0.0:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
