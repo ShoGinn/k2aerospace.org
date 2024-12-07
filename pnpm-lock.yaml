@@ -69,8 +69,8 @@ importers:
         specifier: 3.4.16
         version: 3.4.16
       unpic:
-        specifier: 3.20.0
-        version: 3.20.0
+        specifier: 3.22.0
+        version: 3.22.0
     devDependencies:
       '@astrojs/check':
         specifier: 0.9.4
@@ -3820,8 +3820,8 @@ packages:
   unist-util-visit@5.0.0:
     resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
 
-  unpic@3.20.0:
-    resolution: {integrity: sha512-reWY4Ez9FCjw8J7fGByyyi1Z1fv20xjkFgDa9xI7vqdg89fcLzUYkROKo7yZ5WHRelq6x+pL4ohPRzEdU020aQ==}
+  unpic@3.22.0:
+    resolution: {integrity: sha512-NFhB8HgHHWkNzTxwWg6KHx8+3RZnhWFm4Axdqp9iI176iY3wskzfP16NRSJ2SSTfXzyK4W6GsBqs8iOOdvOB3g==}
 
   update-browserslist-db@1.1.1:
     resolution: {integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==}
@@ -8474,7 +8474,7 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unpic@3.20.0: {}
+  unpic@3.22.0: {}
 
   update-browserslist-db@1.1.1(browserslist@4.24.2):
     dependencies:
