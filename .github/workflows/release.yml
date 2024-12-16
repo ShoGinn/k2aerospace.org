@@ -24,7 +24,7 @@ jobs:
         with:
           fetch-depth: 0
       - run: rm tsconfig.json
-      - uses: wagoid/commitlint-github-action@v6.1.2
+      - uses: wagoid/commitlint-github-action@v6.2.0
   Lint:
     name: Lint The code
     needs:
