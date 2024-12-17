@@ -39,7 +39,7 @@
     "lodash.merge": "4.6.2",
     "rehype-plugin-image-native-lazy-loading": "1.2.0",
     "tailwind-merge": "2.5.5",
-    "tailwindcss": "3.4.16",
+    "tailwindcss": "3.4.17",
     "unpic": "3.22.0"
   },
   "devDependencies": {
