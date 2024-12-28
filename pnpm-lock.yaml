@@ -51,8 +51,8 @@ importers:
         specifier: 0.9.0
         version: 0.9.0(astro@5.1.1(@types/node@22.10.1)(jiti@2.4.1)(lightningcss@1.27.0)(rollup@4.28.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.1))
       astro-icon:
-        specifier: 1.1.4
-        version: 1.1.4
+        specifier: 1.1.5
+        version: 1.1.5
       limax:
         specifier: 4.1.0
         version: 4.1.0
@@ -115,8 +115,8 @@ importers:
         specifier: 15.14.0
         version: 15.14.0
       html-validate:
-        specifier: 9.0.1
-        version: 9.0.1
+        specifier: 9.1.0
+        version: 9.1.0
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -1627,8 +1627,8 @@ packages:
     resolution: {integrity: sha512-F6NW1RJo5pp2kPnnM97M5Ohw8zAGjv83MpxHqfAochH68n/kiXN57+hYaNUCA7XkScoVNr6yzvly3hsY34TGfQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro-icon@1.1.4:
-    resolution: {integrity: sha512-sMLkQaevIQLv38WBzb/RDbsmxhg5+X+KcNmpTi9cE6MLurNWU1MPnlO87d9Vwg4HxTenKpDlYp81A3syXFW/gw==}
+  astro-icon@1.1.5:
+    resolution: {integrity: sha512-CJYS5nWOw9jz4RpGWmzNQY7D0y2ZZacH7atL2K9DeJXJVaz7/5WrxeyIxO8KASk1jCM96Q4LjRx/F3R+InjJrw==}
 
   astro@5.1.1:
     resolution: {integrity: sha512-prpWC2PRs4P3FKQg6gZaU+VNMqbZi5pDvORGB2nrjfRjkrvF6/l4BqhvkJ6YQ0Ohm5rIMVz8ljgaRI77mLHbwg==}
@@ -2490,8 +2490,8 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
 
-  html-validate@9.0.1:
-    resolution: {integrity: sha512-5Yh1a+Gc7aL3ei0Xz1/AgdPjYJ4w5kDPBszlG+ur1vnG4tTznZBoRDR3m/1+ssbKX/mLtTUzh5PWbmyRxISFAQ==}
+  html-validate@9.1.0:
+    resolution: {integrity: sha512-gu74ZP/RUfNH1iCRKZpTLzRB/H6B4IFkSM1OT7Ztug+A1jEVGRrG+SFdXY2ap9jHJc6vkQrB+qqaXXyf2yqI1g==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
@@ -5933,7 +5933,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-icon@1.1.4:
+  astro-icon@1.1.5:
     dependencies:
       '@iconify/tools': 4.0.7
       '@iconify/types': 2.0.0
@@ -7092,7 +7092,7 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.36.0
 
-  html-validate@9.0.1:
+  html-validate@9.1.0:
     dependencies:
       '@html-validate/stylish': 4.2.0
       '@sidvind/better-ajv-errors': 3.0.1(ajv@8.17.1)
