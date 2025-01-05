@@ -115,8 +115,8 @@ importers:
         specifier: 15.14.0
         version: 15.14.0
       html-validate:
-        specifier: 9.1.0
-        version: 9.1.0
+        specifier: 9.1.1
+        version: 9.1.1
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -2498,8 +2498,8 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
 
-  html-validate@9.1.0:
-    resolution: {integrity: sha512-gu74ZP/RUfNH1iCRKZpTLzRB/H6B4IFkSM1OT7Ztug+A1jEVGRrG+SFdXY2ap9jHJc6vkQrB+qqaXXyf2yqI1g==}
+  html-validate@9.1.1:
+    resolution: {integrity: sha512-5VAzTnEr7mjuiRv1OzrEAXB718d/U8AB4SDXJMl7rE7PcRwyg+6sfxqnUQdGCRIvMtsZY22AWevC4oBADACWqw==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
@@ -7106,7 +7106,7 @@ snapshots:
       relateurl: 0.2.7
       terser: 5.36.0
 
-  html-validate@9.1.0:
+  html-validate@9.1.1:
     dependencies:
       '@html-validate/stylish': 4.2.0
       '@sidvind/better-ajv-errors': 3.0.1(ajv@8.17.1)
