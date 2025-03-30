@@ -2,184 +2,160 @@
 
 ## [0.0.32](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.31...v0.0.32) (2024-10-31)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([aaf42ea](https://github.com/ShoGinn/k2aerospace.org/commit/aaf42ea04074a7393a12297608381521f7e69285))
-* **deps:** update all non-major dependencies ([1645716](https://github.com/ShoGinn/k2aerospace.org/commit/16457162c37c9459671f5fb10ab85a86ee300a4a))
-* **deps:** update dependency astro-compress to v2.3.5 ([0833c56](https://github.com/ShoGinn/k2aerospace.org/commit/0833c56c97a1222a751c47ee0706242f53d4be0a))
+- **deps:** update all non-major dependencies ([aaf42ea](https://github.com/ShoGinn/k2aerospace.org/commit/aaf42ea04074a7393a12297608381521f7e69285))
+- **deps:** update all non-major dependencies ([1645716](https://github.com/ShoGinn/k2aerospace.org/commit/16457162c37c9459671f5fb10ab85a86ee300a4a))
+- **deps:** update dependency astro-compress to v2.3.5 ([0833c56](https://github.com/ShoGinn/k2aerospace.org/commit/0833c56c97a1222a751c47ee0706242f53d4be0a))
 
 ## [0.0.31](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.30...v0.0.31) (2024-10-18)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([660aee3](https://github.com/ShoGinn/k2aerospace.org/commit/660aee3ff4a701178b6d9b0c4ee170b5767d98ac))
-* **deps:** update dependency astro to v4.16.1 ([e004424](https://github.com/ShoGinn/k2aerospace.org/commit/e00442429a04e0acadb07cdbfd609637d552d1c5))
-* **deps:** update dependency astro to v4.16.2 ([adbf60f](https://github.com/ShoGinn/k2aerospace.org/commit/adbf60f0b6345e11f43844b9234b7fd82af6318a))
-* **deps:** update dependency astro to v4.16.5 ([c551fa5](https://github.com/ShoGinn/k2aerospace.org/commit/c551fa54fefaa8009dbc1479a4da09a7b5b41dae))
-* **deps:** update dependency astro to v4.16.6 ([e9a27b3](https://github.com/ShoGinn/k2aerospace.org/commit/e9a27b3f9a744435c3b7af8cdcf3f92391f2c8a0))
+- **deps:** update all non-major dependencies ([660aee3](https://github.com/ShoGinn/k2aerospace.org/commit/660aee3ff4a701178b6d9b0c4ee170b5767d98ac))
+- **deps:** update dependency astro to v4.16.1 ([e004424](https://github.com/ShoGinn/k2aerospace.org/commit/e00442429a04e0acadb07cdbfd609637d552d1c5))
+- **deps:** update dependency astro to v4.16.2 ([adbf60f](https://github.com/ShoGinn/k2aerospace.org/commit/adbf60f0b6345e11f43844b9234b7fd82af6318a))
+- **deps:** update dependency astro to v4.16.5 ([c551fa5](https://github.com/ShoGinn/k2aerospace.org/commit/c551fa54fefaa8009dbc1479a4da09a7b5b41dae))
+- **deps:** update dependency astro to v4.16.6 ([e9a27b3](https://github.com/ShoGinn/k2aerospace.org/commit/e9a27b3f9a744435c3b7af8cdcf3f92391f2c8a0))
 
 ## [0.0.30](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.29...v0.0.30) (2024-10-11)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([2ab89aa](https://github.com/ShoGinn/k2aerospace.org/commit/2ab89aa6c45f64f50e580bd2bba8b88ecdc444f8))
+- **deps:** update all non-major dependencies ([2ab89aa](https://github.com/ShoGinn/k2aerospace.org/commit/2ab89aa6c45f64f50e580bd2bba8b88ecdc444f8))
 
 ## [0.0.29](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.28...v0.0.29) (2024-10-09)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([675ec2f](https://github.com/ShoGinn/k2aerospace.org/commit/675ec2f3aa24ec73c7783b71e96847a806f10bdc))
-* **deps:** update dependency astro to v4.15.12 ([80a5515](https://github.com/ShoGinn/k2aerospace.org/commit/80a55156bbe5549137d3b77397202c49ccbb615b))
+- **deps:** update all non-major dependencies ([675ec2f](https://github.com/ShoGinn/k2aerospace.org/commit/675ec2f3aa24ec73c7783b71e96847a806f10bdc))
+- **deps:** update dependency astro to v4.15.12 ([80a5515](https://github.com/ShoGinn/k2aerospace.org/commit/80a55156bbe5549137d3b77397202c49ccbb615b))
 
 ## [0.0.28](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.27...v0.0.28) (2024-10-04)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([de29960](https://github.com/ShoGinn/k2aerospace.org/commit/de2996067a1cf9ddb749255580a1773252cbe655))
-* **deps:** update all non-major dependencies ([12edbff](https://github.com/ShoGinn/k2aerospace.org/commit/12edbff1f67c3e98fb724054b632e5e3d820532c))
+- **deps:** update all non-major dependencies ([de29960](https://github.com/ShoGinn/k2aerospace.org/commit/de2996067a1cf9ddb749255580a1773252cbe655))
+- **deps:** update all non-major dependencies ([12edbff](https://github.com/ShoGinn/k2aerospace.org/commit/12edbff1f67c3e98fb724054b632e5e3d820532c))
 
 ## [0.0.27](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.26...v0.0.27) (2024-10-02)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([6d09168](https://github.com/ShoGinn/k2aerospace.org/commit/6d09168327d33835692d6742bd8af3aa137d7efe))
+- **deps:** update all non-major dependencies ([6d09168](https://github.com/ShoGinn/k2aerospace.org/commit/6d09168327d33835692d6742bd8af3aa137d7efe))
 
 ## [0.0.26](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.25...v0.0.26) (2024-09-28)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @iconify-json/tabler to v1.2.4 ([4cfb0c0](https://github.com/ShoGinn/k2aerospace.org/commit/4cfb0c0244af6688a4313431db9eae52aad9fe11))
+- **deps:** update dependency @iconify-json/tabler to v1.2.4 ([4cfb0c0](https://github.com/ShoGinn/k2aerospace.org/commit/4cfb0c0244af6688a4313431db9eae52aad9fe11))
 
 ## [0.0.25](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.24...v0.0.25) (2024-09-19)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([3e26871](https://github.com/ShoGinn/k2aerospace.org/commit/3e268711e1e46324e2afc0efb15b9a086e0fe9dd))
-* **deps:** update all non-major dependencies ([37cfb5d](https://github.com/ShoGinn/k2aerospace.org/commit/37cfb5d43110537c5293453490bdfc7321ae4385))
-* **deps:** update dependency @astrolib/seo to v1.0.0-beta.6 ([a8730a8](https://github.com/ShoGinn/k2aerospace.org/commit/a8730a871ad55aef27e8e9b8739434163786286d))
-* **deps:** update dependency @iconify-json/tabler to v1.2.3 ([2cb5025](https://github.com/ShoGinn/k2aerospace.org/commit/2cb502522112c9263acfa3c6e9ea4ce80dd3f9e6))
+- **deps:** update all non-major dependencies ([3e26871](https://github.com/ShoGinn/k2aerospace.org/commit/3e268711e1e46324e2afc0efb15b9a086e0fe9dd))
+- **deps:** update all non-major dependencies ([37cfb5d](https://github.com/ShoGinn/k2aerospace.org/commit/37cfb5d43110537c5293453490bdfc7321ae4385))
+- **deps:** update dependency @astrolib/seo to v1.0.0-beta.6 ([a8730a8](https://github.com/ShoGinn/k2aerospace.org/commit/a8730a871ad55aef27e8e9b8739434163786286d))
+- **deps:** update dependency @iconify-json/tabler to v1.2.3 ([2cb5025](https://github.com/ShoGinn/k2aerospace.org/commit/2cb502522112c9263acfa3c6e9ea4ce80dd3f9e6))
 
 ## [0.0.24](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.23...v0.0.24) (2024-09-14)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency astro to v4.15.6 ([b3c38ab](https://github.com/ShoGinn/k2aerospace.org/commit/b3c38ab47770fd8278d9869870c6ec015cfc3a4d))
+- **deps:** update dependency astro to v4.15.6 ([b3c38ab](https://github.com/ShoGinn/k2aerospace.org/commit/b3c38ab47770fd8278d9869870c6ec015cfc3a4d))
 
 ## [0.0.23](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.22...v0.0.23) (2024-09-13)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([240ba41](https://github.com/ShoGinn/k2aerospace.org/commit/240ba416e3de3f585d5639562c6b5544c2eb681f))
-* **deps:** update dependency @fontsource-variable/inter to v5.1.0 ([f501392](https://github.com/ShoGinn/k2aerospace.org/commit/f50139274f1bd56b7115aa858a406cac50f5b427))
+- **deps:** update all non-major dependencies ([240ba41](https://github.com/ShoGinn/k2aerospace.org/commit/240ba416e3de3f585d5639562c6b5544c2eb681f))
+- **deps:** update dependency @fontsource-variable/inter to v5.1.0 ([f501392](https://github.com/ShoGinn/k2aerospace.org/commit/f50139274f1bd56b7115aa858a406cac50f5b427))
 
 ## [0.0.22](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.21...v0.0.22) (2024-09-09)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([34eca4c](https://github.com/ShoGinn/k2aerospace.org/commit/34eca4c81b56f60fa669f404a4ad73a92d824c22))
-* **deps:** update dependency @fontsource-variable/inter to v5.0.21 ([17f1bf9](https://github.com/ShoGinn/k2aerospace.org/commit/17f1bf9065eb611bdbf4205116f06853612ece63))
+- **deps:** update all non-major dependencies ([34eca4c](https://github.com/ShoGinn/k2aerospace.org/commit/34eca4c81b56f60fa669f404a4ad73a92d824c22))
+- **deps:** update dependency @fontsource-variable/inter to v5.0.21 ([17f1bf9](https://github.com/ShoGinn/k2aerospace.org/commit/17f1bf9065eb611bdbf4205116f06853612ece63))
 
 ## [0.0.21](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.20...v0.0.21) (2024-09-07)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency astro to v4.15.4 ([9761a6f](https://github.com/ShoGinn/k2aerospace.org/commit/9761a6f8b57ec42afc53608731a2cd79fd8ec7c0))
+- **deps:** update dependency astro to v4.15.4 ([9761a6f](https://github.com/ShoGinn/k2aerospace.org/commit/9761a6f8b57ec42afc53608731a2cd79fd8ec7c0))
 
 ## [0.0.20](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.19...v0.0.20) (2024-09-05)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency astro to v4.15.3 ([0680868](https://github.com/ShoGinn/k2aerospace.org/commit/0680868253a428f566a114f89a967303529ed32a))
+- **deps:** update dependency astro to v4.15.3 ([0680868](https://github.com/ShoGinn/k2aerospace.org/commit/0680868253a428f566a114f89a967303529ed32a))
 
 ## [0.0.19](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.18...v0.0.19) (2024-09-02)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([8f355ca](https://github.com/ShoGinn/k2aerospace.org/commit/8f355ca65704938923ac1023149f46e8d87170c0))
+- **deps:** update all non-major dependencies ([8f355ca](https://github.com/ShoGinn/k2aerospace.org/commit/8f355ca65704938923ac1023149f46e8d87170c0))
 
 ## [0.0.18](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.17...v0.0.18) (2024-08-28)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([bb804c2](https://github.com/ShoGinn/k2aerospace.org/commit/bb804c2dfb2b45db6c59e291f87f653d712555ce))
+- **deps:** update all non-major dependencies ([bb804c2](https://github.com/ShoGinn/k2aerospace.org/commit/bb804c2dfb2b45db6c59e291f87f653d712555ce))
 
 ## [0.0.17](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.16...v0.0.17) (2024-08-21)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([f53c2ce](https://github.com/ShoGinn/k2aerospace.org/commit/f53c2ceae9d1c6f804a1d2ba294db97a519801ee))
+- **deps:** update all non-major dependencies ([f53c2ce](https://github.com/ShoGinn/k2aerospace.org/commit/f53c2ceae9d1c6f804a1d2ba294db97a519801ee))
 
 ## [0.0.16](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.15...v0.0.16) (2024-08-17)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency astro-icon to v1.1.1 ([58ca845](https://github.com/ShoGinn/k2aerospace.org/commit/58ca845e7ab994cbc79732eff3bebd75fcd8b9cc))
+- **deps:** update dependency astro-icon to v1.1.1 ([58ca845](https://github.com/ShoGinn/k2aerospace.org/commit/58ca845e7ab994cbc79732eff3bebd75fcd8b9cc))
 
 ## [0.0.15](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.14...v0.0.15) (2024-08-15)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency astro to v4.14.2 ([2b65fe3](https://github.com/ShoGinn/k2aerospace.org/commit/2b65fe383adf13d06f4fb70f41b85e6bfefa0afb))
+- **deps:** update dependency astro to v4.14.2 ([2b65fe3](https://github.com/ShoGinn/k2aerospace.org/commit/2b65fe383adf13d06f4fb70f41b85e6bfefa0afb))
 
 ## [0.0.14](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.13...v0.0.14) (2024-08-14)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([136adb7](https://github.com/ShoGinn/k2aerospace.org/commit/136adb7181cf77839f8a44ec834b8276007c3cc8))
+- **deps:** update all non-major dependencies ([136adb7](https://github.com/ShoGinn/k2aerospace.org/commit/136adb7181cf77839f8a44ec834b8276007c3cc8))
 
 ## [0.0.13](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.12...v0.0.13) (2024-08-13)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([36205eb](https://github.com/ShoGinn/k2aerospace.org/commit/36205eb24f6c5906b188b523a8c99f426c1abd72))
+- **deps:** update all non-major dependencies ([36205eb](https://github.com/ShoGinn/k2aerospace.org/commit/36205eb24f6c5906b188b523a8c99f426c1abd72))
 
 ## [0.0.12](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.11...v0.0.12) (2024-08-11)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency tailwind-merge to v2.5.0 ([6ae255f](https://github.com/ShoGinn/k2aerospace.org/commit/6ae255f98010a8e4f59d900f47913ea53fb50ab4))
+- **deps:** update dependency tailwind-merge to v2.5.0 ([6ae255f](https://github.com/ShoGinn/k2aerospace.org/commit/6ae255f98010a8e4f59d900f47913ea53fb50ab4))
 
 ## [0.0.11](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.10...v0.0.11) (2024-08-08)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([c9df293](https://github.com/ShoGinn/k2aerospace.org/commit/c9df29369cc6679fead96eaa80b8bfd2941ce192))
+- **deps:** update all non-major dependencies ([c9df293](https://github.com/ShoGinn/k2aerospace.org/commit/c9df29369cc6679fead96eaa80b8bfd2941ce192))
 
 ## [0.0.10](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.9...v0.0.10) (2024-08-04)
 
-
 ### Bug Fixes
 
-* **deps:** update all non-major dependencies ([50e68a2](https://github.com/ShoGinn/k2aerospace.org/commit/50e68a218941b44184cd42b6cb401631537d17ed))
+- **deps:** update all non-major dependencies ([50e68a2](https://github.com/ShoGinn/k2aerospace.org/commit/50e68a218941b44184cd42b6cb401631537d17ed))
 
 ## [0.0.9](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.8...v0.0.9) (2024-08-02)
 
-
 ### Bug Fixes
 
-* **deps:** update astro ([7b2f03b](https://github.com/ShoGinn/k2aerospace.org/commit/7b2f03bf00c17d0af71f9ef8845d4aa359744e0e))
+- **deps:** update astro ([7b2f03b](https://github.com/ShoGinn/k2aerospace.org/commit/7b2f03bf00c17d0af71f9ef8845d4aa359744e0e))
 
 ## [0.0.8](https://github.com/ShoGinn/k2aerospace.org/compare/v0.0.7...v0.0.8) (2024-08-02)
 
