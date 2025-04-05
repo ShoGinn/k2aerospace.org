@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
-import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
@@ -14,6 +13,8 @@ import type { AstroIntegration } from 'astro';
 import astrowind from './vendor/integration';
 
 import { responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter';
+
+import tailwindcss from '@tailwindcss/vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -25,9 +26,6 @@ export default defineConfig({
   output: 'static',
 
   integrations: [
-    tailwind({
-      applyBaseStyles: false,
-    }),
     sitemap(),
     mdx(),
     icon({
@@ -85,5 +83,7 @@ export default defineConfig({
         '~': path.resolve(__dirname, './src'),
       },
     },
+
+    plugins: [tailwindcss()],
   },
 });

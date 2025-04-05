@@ -1,0 +1,134 @@
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: var(--aw-color-primary);
+  --color-secondary: var(--aw-color-secondary);
+  --color-accent: var(--aw-color-accent);
+  --color-default: var(--aw-color-text-default);
+  --color-muted: var(--aw-color-text-muted);
+
+  --font-sans:
+    var(--aw-font-sans, ui-sans-serif), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-serif: var(--aw-font-serif, ui-serif), ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --font-heading:
+    var(--aw-font-heading, ui-sans-serif), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility bg-page {
+  background-color: var(--aw-color-bg-page);
+  background-image: radial-gradient(
+    100% 50% at 50% 0%,
+    rgba(1, 97, 239, 0.13) 0%,
+    rgba(1, 84, 207, 0.1) 50%,
+    rgba(1, 97, 239, 0) 100%
+  );
+}
+
+@utility bg-dark {
+  background-color: var(--aw-color-bg-page-dark);
+}
+
+@utility bg-light {
+  background-color: var(--aw-color-bg-page);
+}
+
+@utility text-page {
+  color: var(--aw-color-text-page);
+}
+
+@utility text-muted {
+  color: var(--aw-color-text-muted);
+}
+
+@utility btn {
+  @apply text-page inline-flex cursor-pointer items-center justify-center rounded-full border border-gray-400 bg-transparent px-6 py-3.5 text-center text-base leading-snug font-medium transition duration-200 ease-in hover:border-gray-600 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-blue-200 md:px-8 dark:border-slate-500 dark:text-slate-300 dark:hover:border-slate-800 dark:hover:bg-slate-800;
+}
+
+@utility btn-primary {
+  @apply btn bg-primary border-primary hover:bg-secondary hover:border-secondary dark:bg-primary dark:border-primary dark:hover:border-secondary dark:hover:bg-secondary font-semibold text-white hover:text-white dark:text-white;
+}
+
+@utility btn-secondary {
+  @apply btn;
+}
+
+@utility btn-tertiary {
+  @apply btn text-muted border-none shadow-none hover:text-gray-900 dark:text-gray-400 dark:hover:text-white;
+}
+
+#header.scroll > div:first-child {
+  @apply bg-page md:bg-inherit md:backdrop-blur-xs;
+  box-shadow: none;
+}
+.dark #header.scroll > div:first-child,
+#header.scroll.dark > div:first-child {
+  @apply bg-page border-b border-gray-500/20 md:bg-[#030621e6];
+  box-shadow: none;
+}
+/* #header.scroll > div:last-child {
+  @apply py-3;
+} */
+
+#header.expanded nav {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 70px !important;
+  padding: 0 5px;
+}
+
+.dropdown:focus .dropdown-menu,
+.dropdown:focus-within .dropdown-menu,
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+[astro-icon].icon-light > * {
+  stroke-width: 1.2;
+}
+
+[astro-icon].icon-bold > * {
+  stroke-width: 2.4;
+}
+
+[data-aw-toggle-menu] path {
+  @apply transition;
+}
+[data-aw-toggle-menu].expanded g > path:first-child {
+  @apply translate-x-[-3px] translate-y-[15px] -rotate-45;
+}
+
+[data-aw-toggle-menu].expanded g > path:last-child {
+  @apply translate-x-[14px] translate-y-[-8px] rotate-45;
+}
+
+/* To deprecated */
+
+.dd *:first-child {
+  margin-top: 0;
+}
