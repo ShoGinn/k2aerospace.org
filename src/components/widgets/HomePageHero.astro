@@ -24,16 +24,16 @@ const { hero, fallbackImg } = Astro.props as Props;
 const { eyebrow, header, description, action, videoTitle } = hero;
 ---
 
-<div class="snap-center mt-[-76px] not-prose">
-  <section class="h-dvh w-screen text-center overflow-hidden relative">
+<div class="not-prose mt-[-76px] snap-center">
+  <section class="relative h-dvh w-screen overflow-hidden text-center">
     {
       (eyebrow || header || action) && (
-        <div class="z-30 relative h-full flex flex-col">
+        <div class="relative z-30 flex h-full flex-col">
           {(eyebrow || header || description) && (
             <div class="text-white">
               {eyebrow && <p class="pt-40 text-base font-bold tracking-wide uppercase">{eyebrow}</p>}
               {header && (
-                <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
+                <h1 class="leading-tighter font-heading mb-4 text-5xl font-bold tracking-tighter md:text-6xl dark:text-gray-200">
                   {header}
                 </h1>
               )}
@@ -41,10 +41,10 @@ const { eyebrow, header, description, action, videoTitle } = hero;
             </div>
           )}
           {action && (
-            <div class="flex flex-col flex-grow justify-end pb-96">
+            <div class="flex grow flex-col justify-end pb-96">
               <div>
                 <a
-                  class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors"
+                  class="inline-block rounded-sm border-[3px] border-white bg-white/5 px-12 py-2 text-sm font-medium text-white backdrop-blur-xs transition-colors hover:bg-white hover:text-black"
                   href={action.href}
                 >
                   {action.label}
@@ -55,9 +55,9 @@ const { eyebrow, header, description, action, videoTitle } = hero;
         </div>
       )
     }
-    <div class="absolute top-0 bottom-0 h-full w-full z-10">
+    <div class="absolute top-0 bottom-0 z-10 h-full w-full">
       <video
-        class="object-center object-cover h-full w-full"
+        class="h-full w-full object-cover object-center"
         playsinline
         autoplay
         muted

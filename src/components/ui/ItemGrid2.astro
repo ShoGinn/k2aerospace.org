@@ -22,11 +22,11 @@ const {
       class={twMerge(
         `grid gap-8 gap-x-12 sm:gap-y-8 ${
           columns === 4
-            ? 'lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2'
+            ? 'sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'
             : columns === 3
-              ? 'lg:grid-cols-3 sm:grid-cols-2'
+              ? 'sm:grid-cols-2 lg:grid-cols-3'
               : columns === 2
-                ? 'sm:grid-cols-2 '
+                ? 'sm:grid-cols-2'
                 : ''
         }`,
         containerClass
@@ -35,7 +35,7 @@ const {
       {items.map(({ title, description, icon, callToAction, classes: itemClasses = {} }) => (
         <div class={twMerge('relative flex flex-col', panelClass, itemClasses?.panel)}>
           {(icon || defaultIcon) && (
-            <Icon name={icon || defaultIcon} class={twMerge('mb-2 w-10 h-10', defaultIconClass, itemClasses?.icon)} />
+            <Icon name={icon || defaultIcon} class={twMerge('mb-2 h-10 w-10', defaultIconClass, itemClasses?.icon)} />
           )}
           <div class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</div>
           {description && (

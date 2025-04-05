@@ -52,8 +52,8 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 <header
   class:list={[
     { sticky: isSticky, relative: !isSticky, dark: isDark },
-    'top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out',
-    { 'bg-slate-200 bg-opacity-50': isTransparent },
+    'top-0 z-40 mx-auto w-full flex-none border-b border-gray-50/0 transition-[opacity] ease-in-out',
+    { 'bg-opacity-50 bg-slate-200': isTransparent },
   ]}
   {...isSticky ? { 'data-aw-sticky-header': true } : {}}
   {...id ? { id } : {}}
@@ -61,7 +61,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
   <div class="absolute inset-0"></div>
   <div
     class:list={[
-      'relative text-default py-3 px-3 md:px-6 mx-auto w-full',
+      'text-default relative mx-auto w-full px-3 py-3 md:px-6',
       {
         'md:flex md:justify-between': position !== 'center',
       },
@@ -82,27 +82,27 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       </div>
     </div>
     <nav
-      class="items-center w-full md:w-auto hidden md:flex md:mx-5 text-default overflow-y-auto overflow-x-hidden md:overflow-y-visible md:overflow-x-auto md:justify-self-center"
+      class="text-default hidden w-full items-center overflow-x-hidden overflow-y-auto md:mx-5 md:flex md:w-auto md:justify-self-center md:overflow-x-auto md:overflow-y-visible"
       aria-label="Main navigation"
     >
       <ul
-        class="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-[0.9375rem] tracking-[0.01rem] font-medium md:justify-center"
+        class="flex w-full flex-col text-xl font-medium tracking-[0.01rem] md:w-auto md:flex-row md:justify-center md:self-center md:text-[0.9375rem]"
       >
         {
           links.map(({ text, href, links }) => (
             <li class={links?.length ? 'dropdown' : ''}>
               {links?.length ? (
                 <>
-                  <button type="button" class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center">
+                  <button type="button" class="hover:text-link flex items-center px-4 py-3 dark:hover:text-white">
                     {text}{' '}
-                    <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
+                    <Icon name="tabler:chevron-down" class="ml-0.5 hidden h-3.5 w-3.5 md:inline rtl:mr-0.5 rtl:ml-0" />
                   </button>
-                  <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
+                  <ul class="dropdown-menu dark:md:bg-dark rounded-sm pl-4 font-medium drop-shadow-xl md:absolute md:hidden md:min-w-[200px] md:bg-white/90 md:pl-0 md:backdrop-blur-md">
                     {links.map(({ text: text2, href: href2 }) => (
                       <li>
                         <a
                           class:list={[
-                            'first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap',
+                            'hover:text-link whitespace-no-wrap block px-5 py-2 first:rounded-t last:rounded-b md:hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white',
                             { 'aw-link-active': href2 === currentPath },
                           ]}
                           href={href2}
@@ -116,7 +116,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
               ) : (
                 <a
                   class:list={[
-                    'hover:text-link dark:hover:text-white px-4 py-3 flex items-center',
+                    'hover:text-link flex items-center px-4 py-3 dark:hover:text-white',
                     { 'aw-link-active': href === currentPath },
                   ]}
                   href={href}
@@ -131,19 +131,19 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
     </nav>
     <div
       class:list={[
-        { 'ml-auto rtl:ml-0 rtl:mr-auto': position === 'left' },
-        'hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0 md:justify-self-end',
+        { 'ml-auto rtl:mr-auto rtl:ml-0': position === 'left' },
+        'fixed bottom-0 left-0 hidden w-full items-center justify-end p-3 md:static md:mb-0 md:flex md:w-auto md:self-center md:justify-self-end md:p-0 rtl:right-0 rtl:left-auto',
       ]}
     >
-      <div class="items-center flex justify-between w-full md:w-auto">
+      <div class="flex w-full items-center justify-between md:w-auto">
         <div class="flex">
           {showToggleTheme && <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />}
         </div>
         {
           actions?.length ? (
-            <span class="ml-4 rtl:ml-0 rtl:mr-4">
+            <span class="ml-4 rtl:mr-4 rtl:ml-0">
               {actions.map((btnProps) => (
-                <Button {...btnProps} class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto" />
+                <Button {...btnProps} class="ml-2 w-auto px-5.5 py-2.5 text-sm font-semibold shadow-none md:px-6" />
               ))}
             </span>
           ) : (
