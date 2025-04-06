@@ -1,6 +1,10 @@
 ---
-import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/Layout.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
+import Footer from '~/components/widgets/Footer.astro';
+import { footerData } from '~/navigation';
+import { getHomePermalink } from '~/utils/permalinks';
+import Logo from '~/components/Logo.astro';
 
 const metadata = {
   ignoreTitleTemplate: true,
@@ -8,6 +12,11 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+  <div>
+    <a class="flex items-center" href={getHomePermalink()}>
+      <Logo />
+    </a>
+  </div>
   <Hero2
     tagline="We are a team of experts in the space industry."
     content="Trusted space industry consulting. Subject matter expertise. Mission planning. Risk assessment."
@@ -20,4 +29,7 @@ const metadata = {
       <span class="text-accent highlight dark:text-white">Our Mission: </span> Solve the most challenging space problems.
     </Fragment>
   </Hero2>
+  <slot name="footer">
+    <Footer {...footerData} />
+  </slot>
 </Layout>
