@@ -41,12 +41,12 @@ jobs:
       #                    Install Node.js and pnpm
       # -----------------------------------------------------------------------
       - name: 📦 Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5.0.0
         with:
-          node-version: 18
+          node-version: 22
       - name: Install pnpm
         shell: bash
-        run: npm install -g pnpm@9
+        run: npm install -g pnpm@10
       # -----------------------------------------------------------------------
       #                    Cache dependencies
       # -----------------------------------------------------------------------
