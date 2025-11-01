@@ -20,7 +20,7 @@ jobs:
     name: Lint Commit Messages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - run: rm tsconfig.json
@@ -35,7 +35,7 @@ jobs:
       #                    Check out The Repository
       # -----------------------------------------------------------------------
       - name: 💾 Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # -----------------------------------------------------------------------
       #                    Install Node.js and pnpm
