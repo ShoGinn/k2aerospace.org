@@ -31,7 +31,7 @@
     "@iconify-json/tabler": "1.2.23",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "^4.1.14",
-    "astro": "5.15.3",
+    "astro": "5.15.6",
     "astro-compress": "2.3.8",
     "astro-embed": "0.9.1",
     "astro-icon": "1.1.5",
