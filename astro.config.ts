@@ -70,7 +70,16 @@ export default defineConfig({
   ],
 
   image: {
-    domains: ['cdn.pixabay.com', 'images.unsplash.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.pixabay.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
   },
 
   markdown: {
